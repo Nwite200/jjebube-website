@@ -1,0 +1,18 @@
+[
+  {
+    "id": "promo-1",
+    "title": "Everyday essentials, better priced",
+    "subtitle": "Milk, tea, seasoning and family staples — in store and ready for delivery.",
+    "label": "Shop the essentials",
+    "href": "/shop",
+    "active": true
+  },
+  {
+    "id": "promo-2",
+    "title": "Bulk orders for your business",
+    "subtitle": "Carton quantities, dependable supply and quotes within one business day.",
+    "label": "Request a quote",
+    "href": "/wholesale",
+    "active": true
+  }
+]

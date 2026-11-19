@@ -1,0 +1,56 @@
+{
+  "storeName": "JJ Ebube Enterprise",
+  "tagline": "Quality Products. Better Life.",
+  "phone": "07062129563",
+  "whatsapp": "+2347062129563",
+  "email": "",
+  "address": "248 Obodoukwu Rd, Onitsha",
+  "hours": "Mon – Sat, 8:00am – 6:00pm",
+  "announcement": "Quality You Trust • Value You Love • Delivery Across Nigeria",
+  "heroEyebrow": "Your everyday essentials, elevated",
+  "heroTitle": "Good Products. Better Prices. Everyday.",
+  "heroHighlight": "Better Prices.",
+  "heroBody": "From trusted household favourites to everyday essentials, shop quality products at prices that make sense.",
+  "aboutTitle": "A Nigerian store built on trust.",
+  "aboutBody": "JJ Ebube Enterprise supplies homes, shops and businesses with the food, drinks and household essentials they rely on every day.",
+  "freeShippingThreshold": 150000,
+  "deliveryZones": [
+    {
+      "id": "lagos",
+      "name": "Lagos",
+      "fee": 2500
+    },
+    {
+      "id": "southwest",
+      "name": "South-West (excluding Lagos)",
+      "fee": 3500
+    },
+    {
+      "id": "southeast",
+      "name": "South-East & South-South",
+      "fee": 4500
+    },
+    {
+      "id": "north",
+      "name": "Northern Nigeria",
+      "fee": 5000
+    },
+    {
+      "id": "pickup",
+      "name": "Pick up from store",
+      "fee": 0
+    }
+  ],
+  "bankTransfer": {
+    "bankName": "",
+    "accountName": "JJ Ebube Enterprise",
+    "accountNumber": ""
+  },
+  "socials": {
+    "instagram": "",
+    "facebook": "",
+    "x": "",
+    "tiktok": ""
+  },
+  "branchAddress": "No A26/2 Kingsway Line, Ogbaru Main Market, Onitsha"
+}

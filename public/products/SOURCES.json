@@ -1,0 +1,473 @@
+{
+ "project": "jjebube website - product & editorial imagery",
+ "generated": "2026-11-19",
+ "notes": "All images are real retail/manufacturer packshots downloaded locally for product identification. No AI-generated or fabricated packaging. Product photos remain the property of their respective brands/retailers; verify usage rights before commercial print use.",
+ "products": {
+  "bournvita-500g": {
+   "file": "/products/bournvita-500g.webp",
+   "product": "bournvita 500g",
+   "source_page": "https://waziri.ng/product/cadbury-bournvita-500g-refill-pack/",
+   "direct_image_url": "http://waziri.ng/wp-content/uploads/2024/03/Cadbury-Bournvita-500g-Refill-Pack.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 56900,
+   "dimensions": "800x800"
+  },
+  "cadbury-drinking-chocolate-500g": {
+   "file": "/products/cadbury-drinking-chocolate-500g.webp",
+   "product": "cadbury drinking chocolate 500g",
+   "source_page": "https://adeeg.com/products/cadbury-drinking-chocolate-500g",
+   "direct_image_url": "https://adeeg.com/cdn/shop/products/CadburyDrinkingChocolate_1200x.jpg?v=1632725191",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "500 g Cadbury Drinking Chocolate tin.",
+   "bytes": 36086,
+   "dimensions": "800x800"
+  },
+  "carnation-evaporated-milk-170g": {
+   "file": "/products/carnation-evaporated-milk-170g.webp",
+   "product": "carnation evaporated milk 170g",
+   "source_page": "https://www.bbfoodservice.co.uk/product/705590-1",
+   "direct_image_url": "https://www.bestwaywholesale.co.uk/img/products/1000/3/5010346000003.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 60446,
+   "dimensions": "800x800"
+  },
+  "cerelac-wheat-400g": {
+   "file": "/products/cerelac-wheat-400g.webp",
+   "product": "cerelac wheat 400g",
+   "source_page": "https://www.talabat.com/bahrain/talabat-mart/product/nestle-cerelac-wheat-cereal-baby-food-400g/s/902128",
+   "direct_image_url": "https://images.deliveryhero.io/image/product-information-management/65a8daa3b8f8817b60cd5c26.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 76666,
+   "dimensions": "800x800"
+  },
+  "coast-evaporated-milk-150g": {
+   "file": "/products/coast-evaporated-milk-150g.webp",
+   "product": "coast evaporated milk 150g",
+   "source_page": "https://waziri.ng/product/coast-evaporated-full-cream-milk-160g-by-24/",
+   "direct_image_url": "http://waziri.ng/wp-content/uploads/2023/12/images-2023-03-21T181605.784.jpeg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Shown pack is the 160 g Coast tin; Coast's 150 g tin uses the same label design.",
+   "bytes": 35820,
+   "dimensions": "800x800"
+  },
+  "cowbell-milk-400g": {
+   "file": "/products/cowbell-milk-400g.webp",
+   "product": "cowbell milk 400g",
+   "source_page": "http://www.cowbell.ng/en/home/",
+   "direct_image_url": "http://www.cowbell.ng/media/4506/tin.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 56534,
+   "dimensions": "800x800"
+  },
+  "cremora-400g": {
+   "file": "/products/cremora-400g.webp",
+   "product": "cremora 400g",
+   "source_page": "https://www.cremora.co.za/browse-all-products-cremora-powder",
+   "direct_image_url": "https://www.cremora.co.za/sites/default/files/2021-05/Cremora-Sachet-500g.png",
+   "license_note": "Official brand image (cremora.co.za) - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Closest pack: Cremora Original 500 g refill sachet (Cremora is sold in 500 g/750 g/1 kg; no 400 g pack).",
+   "bytes": 48882,
+   "dimensions": "800x800"
+  },
+  "dangote-salt-1kg": {
+   "file": "/products/dangote-salt-1kg.webp",
+   "product": "dangote salt 1kg",
+   "source_page": "https://24hoursmarket.com/product/dangote-salt-1kg/",
+   "direct_image_url": "https://24hoursmarket.com/wp-content/uploads/2020/04/1666561040215.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 41144,
+   "dimensions": "800x800"
+  },
+  "dangote-sugar-50kg": {
+   "file": "/products/dangote-sugar-50kg.webp",
+   "product": "dangote sugar 50kg",
+   "source_page": "https://businesspost.ng/economy/dangote-sugar-grows-2020-profit-by-33-offers-n1-50-dividend/",
+   "direct_image_url": "https://businesspost.ng/wp-content/uploads/2020/09/Dangote-Sugar.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 37708,
+   "dimensions": "800x800"
+  },
+  "dano-cool-cow-1kg": {
+   "file": "/products/dano-cool-cow-1kg.webp",
+   "product": "dano cool cow 1kg",
+   "source_page": "https://www.supermart.ng/products/dano-cool-cow-instant-filled-milk-powder-tin-900-g",
+   "direct_image_url": "https://cdn.shopify.com/s/files/1/0773/4037/7385/files/spwiow873..jpg",
+   "license_note": "Retailer product photo (Supermart.ng) - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Closest pack: 900 g tin (Dano Cool Cow has no 1 kg tin in Nigeria; packs are 400 g/900 g tins and 750 g/2 kg sachets).",
+   "bytes": 35096,
+   "dimensions": "800x800"
+  },
+  "dano-cool-cow-400g": {
+   "file": "/products/dano-cool-cow-400g.webp",
+   "product": "dano cool cow 400g",
+   "source_page": "https://www.konga.com/product/dano-cool-cow-powdered-tin-milk-400g-5995785",
+   "direct_image_url": "https://www-konga-com-res.cloudinary.com/f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/E/201514_1674676138.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "400 g tin (clean packshot via Konga).",
+   "bytes": 40954,
+   "dimensions": "800x800"
+  },
+  "dogan-sugar-500g": {
+   "file": "/products/dogan-sugar-500g.webp",
+   "product": "dogan sugar 500g",
+   "source_page": "https://kudyunusbislar.com.ng/shop/food/baking/dogans-refined-granulated-white-sugar-450g/",
+   "direct_image_url": "https://kudyunusbislar.com.ng/wp-content/uploads/2019/11/Dogan’s-Refined-Granulated-White-Sugar-450g1.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Closest pack: Dogan's Refined Granulated White Sugar 450 g (Dogan's granulated retail pack size).",
+   "bytes": 24632,
+   "dimensions": "800x800"
+  },
+  "gino-tomato-paste-70g": {
+   "file": "/products/gino-tomato-paste-70g.webp",
+   "product": "gino tomato paste 70g",
+   "source_page": "https://24hoursmarket.com/product/gino-tomatoes/",
+   "direct_image_url": "https://24hoursmarket.com/wp-content/uploads/2017/01/IMG_20240611_235604.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 25616,
+   "dimensions": "800x800"
+  },
+  "glucose-d-400g": {
+   "file": "/products/glucose-d-400g.webp",
+   "product": "glucose d 400g",
+   "source_page": "https://airmedng.com/product/munro-glucose-d-400g/",
+   "direct_image_url": "https://airmedng.com/wp-content/uploads/2025/07/Munro-Glucose-D-400g.webp",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 31682,
+   "dimensions": "800x800"
+  },
+  "golden-penny-noodles-chicken-5pack": {
+   "file": "/products/golden-penny-noodles-chicken-5pack.webp",
+   "product": "golden penny noodles chicken 5pack",
+   "source_page": "https://24hoursmarket.com/product/golden-penny-instant-noodles-chicken-flavour-70g/",
+   "direct_image_url": "https://24hoursmarket.com/wp-content/uploads/2023/03/1700850946717.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 66172,
+   "dimensions": "800x800"
+  },
+  "golden-penny-semolina-1kg": {
+   "file": "/products/golden-penny-semolina-1kg.webp",
+   "product": "golden penny semolina 1kg",
+   "source_page": "https://www.supermart.ng/products/golden-penny-semovita-1-kg",
+   "direct_image_url": "https://cdn.shopify.com/s/files/1/0773/4037/7385/files/spcgfl1178_golden_penny_semovita_1_kg.jpg",
+   "license_note": "Retailer product photo (Supermart.ng) - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "Golden Penny's Nigerian semolina SKU is sold as 'Semovita - Premium Quality Semolina' 1 kg; separate photo from semovita-1kg.webp.",
+   "bytes": 45106,
+   "dimensions": "800x800"
+  },
+  "ideal-evaporated-milk-170g": {
+   "file": "/products/ideal-evaporated-milk-170g.webp",
+   "product": "ideal evaporated milk 170g",
+   "source_page": "https://g-sapphire.com/products/ideal-evaporated-milk",
+   "direct_image_url": "https://g-sapphire.com/cdn/shop/products/image_acecc2ab-d7ce-4f4c-a93a-73e4f8068221.webp?v=1651349739",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 47316,
+   "dimensions": "800x800"
+  },
+  "indomie-chicken-40pack": {
+   "file": "/products/indomie-chicken-40pack.webp",
+   "product": "indomie chicken 40pack",
+   "source_page": "https://24hoursmarket.com/product/indomie-noodles-chicken-flavour-70g-x40-x-20cartons/",
+   "direct_image_url": "https://24hoursmarket.com/wp-content/uploads/2023/11/1701011205077.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 58932,
+   "dimensions": "800x800"
+  },
+  "indomie-onion-chicken-5pack": {
+   "file": "/products/indomie-onion-chicken-5pack.webp",
+   "product": "indomie onion chicken 5pack",
+   "source_page": "https://www.jumia.co.ke/indomie-onion-chicken-noodles-75gx5-326143511.html",
+   "direct_image_url": "https://ke.jumia.is/unsafe/fit-in/800x800/filters:fill(white)/product/11/5341623/1.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "5 x 70 g multipack bag (pack artwork shows Net Wt 350 g / 5 x 70 g).",
+   "bytes": 59374,
+   "dimensions": "800x800"
+  },
+  "kerrygold-butter-750g": {
+   "file": "/products/kerrygold-butter-750g.webp",
+   "product": "kerrygold butter 750g",
+   "source_page": "https://www.pinterest.com/pin/kerrygold-butter-454g-rich-and-creamy--142637513190517472/",
+   "direct_image_url": "https://i.pinimg.com/736x/0b/ac/4c/0bac4c4faf59cb32a9522f1d1366fb56.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Closest pack: Kerrygold Pure Irish Butter 454 g foil block (Kerrygold does not make a 750 g butter pack).",
+   "bytes": 31232,
+   "dimensions": "800x800"
+  },
+  "knorr-chicken-100": {
+   "file": "/products/knorr-chicken-100.webp",
+   "product": "knorr chicken 100",
+   "source_page": "https://jodaqfoods.co.uk/product/knorr-seasoning-cubeschicken-400g/",
+   "direct_image_url": "https://jodaqfoods.co.uk/wp-content/uploads/2023/08/knorr-chicken.png",
+   "license_note": "Retailer product photo (Jodaq Foods) - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Closest pack: Knorr Chicken 400 g = 50 x 8 g cubes. No 100-cube Knorr Nigeria pack exists in current retail range.",
+   "bytes": 47830,
+   "dimensions": "800x800"
+  },
+  "lipton-yellow-label-100": {
+   "file": "/products/lipton-yellow-label-100.webp",
+   "product": "lipton yellow label 100",
+   "source_page": "https://www.amazon.com/Lipton-Yellow-Label-Bags-100ct/dp/B000JSQDK4",
+   "direct_image_url": "https://m.media-amazon.com/images/I/71nFC0WWdUL.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 40046,
+   "dimensions": "800x800"
+  },
+  "lipton-yellow-label-50": {
+   "file": "/products/lipton-yellow-label-50.webp",
+   "product": "lipton yellow label 50",
+   "source_page": "https://thimaceylonselection.com/product/lipton-yellow-label-50-tea-bags/",
+   "direct_image_url": "https://thimaceylonselection.com/wp-content/uploads/1-5.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 36282,
+   "dimensions": "800x800"
+  },
+  "loya-whole-milk-400g": {
+   "file": "/products/loya-whole-milk-400g.webp",
+   "product": "loya whole milk 400g",
+   "source_page": "https://24hoursmarket.com/product/loya-milk-320g/",
+   "direct_image_url": "https://24hoursmarket.com/wp-content/uploads/2022/07/1657574751122.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Closest pack: Loya Instant Full Cream Milk Powder 320 g pouch (Loya's retail sachet is 320 g; no 400 g pack found).",
+   "bytes": 49944,
+   "dimensions": "800x800"
+  },
+  "maggi-chicken-100": {
+   "file": "/products/maggi-chicken-100.webp",
+   "product": "maggi chicken 100",
+   "source_page": "https://tradewindsorientalshop.co.uk/products/maggi-chicken-flavour-seasoning-100-cubes-400g",
+   "direct_image_url": "https://tradewindsorientalshop.co.uk/cdn/shop/products/Maggi_Chicken_Flavour_Seasoning_100_cubes_-_400g_994x994.png?v=1674902885",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 76782,
+   "dimensions": "800x800"
+  },
+  "mamador-vegetable-oil-1l": {
+   "file": "/products/mamador-vegetable-oil-1l.webp",
+   "product": "mamador vegetable oil 1l",
+   "source_page": "https://chomart.com/product/mamador-pure-vegetable-oil-JshTv",
+   "direct_image_url": "https://www.chomart.com/storage/images/mamador-pure-vegetable-oil-jshtv614364.webp",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 25412,
+   "dimensions": "800x800"
+  },
+  "milo-refill-400g": {
+   "file": "/products/milo-refill-400g.webp",
+   "product": "milo refill 400g",
+   "source_page": "https://geminifoods.co.uk/shop/beverages-cereal/hot-chocolate/malted-drink/milo-nigeria-refill-400g-copy/",
+   "direct_image_url": "https://geminifoods.co.uk/wp-content/uploads/2020/08/Milo-Refill-400g.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 67750,
+   "dimensions": "800x800"
+  },
+  "nescafe-classic-100g": {
+   "file": "/products/nescafe-classic-100g.webp",
+   "product": "nescafe classic 100g",
+   "source_page": "https://turcamart.com/products/nescafe-classic-instant-coffee-jar-100-g",
+   "direct_image_url": "https://turcamart.com/cdn/shop/files/Nescafe_Classic_Instant_Coffee_Jar_100_G.jpg?v=1756302331&width=1650",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 46180,
+   "dimensions": "800x800"
+  },
+  "nido-fortified-milk-400g": {
+   "file": "/products/nido-fortified-milk-400g.webp",
+   "product": "nido fortified milk 400g",
+   "source_page": "https://www.goshoppi.ae/store/apsara-supermarket-bur-dubai/breaddairy/milk/nestle-nido-fortified-full-cream-milk-powder-400-g.html",
+   "direct_image_url": "https://www.goshoppi.ae/libraries/image.php?quality=100&&image=https://www.goshoppi.ae/images/variants/Nestle-Nido-Fortified-Full-Cream-Milk-Powder-400g.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 42950,
+   "dimensions": "800x800"
+  },
+  "onga-beef-100": {
+   "file": "/products/onga-beef-100.webp",
+   "product": "onga beef 100",
+   "source_page": "https://asafointernational.com/product/onga-beef-tablets-24x64x12g/",
+   "direct_image_url": "https://asafointernational.com/wp-content/uploads/2025/03/Onga-Beef-cube.png",
+   "license_note": "Distributor product photo (Asafo International) - used for product identification only.",
+   "exact_size_match": false,
+   "pack_note": "Bulk display carton of Onga Beef Flavour seasoning tablets; a 100-cube beef retail pouch is not in the current Onga range (the 100-cube pack is chicken).",
+   "bytes": 111332,
+   "dimensions": "800x800"
+  },
+  "onga-chicken-100": {
+   "file": "/products/onga-chicken-100.webp",
+   "product": "onga chicken 100",
+   "source_page": "https://www.supermart.ng/products/onga-chicken-cubes-4-g-x100",
+   "direct_image_url": "https://www.supermart.ng/cdn/shop/files/SPARNW251.jpg",
+   "license_note": "Retailer product photo (Supermart.ng) - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "100 x 4 g chicken cubes; source image is only 300x300, so mild upscaling.",
+   "bytes": 61120,
+   "dimensions": "800x800"
+  },
+  "ovaltine-400g": {
+   "file": "/products/ovaltine-400g.webp",
+   "product": "ovaltine 400g",
+   "source_page": "https://menipraisesupermart.com.ng/product/ovaltine-400g-tin-malted-chocolate-beverage-for-energy-and-nutrition/",
+   "direct_image_url": "https://menipraisesupermart.com.ng/wp-content/uploads/2025/03/download__13_.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 43860,
+   "dimensions": "800x800"
+  },
+  "peak-evaporated-milk-170g": {
+   "file": "/products/peak-evaporated-milk-170g.webp",
+   "product": "peak evaporated milk 170g",
+   "source_page": "https://a4africanmarket.com/product/peak-milk-evaporated-small-170g/",
+   "direct_image_url": "https://a4africanmarket.com/wp-content/uploads/2025/06/Screenshot-2025-06-18-at-15-54-48-qewwf.png-WEBP-Image-550-×-660-pixels.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 32912,
+   "dimensions": "800x800"
+  },
+  "peak-full-cream-milk-400g": {
+   "file": "/products/peak-full-cream-milk-400g.webp",
+   "product": "peak full cream milk 400g",
+   "source_page": "https://www.supermart.ng/products/peak-instant-full-cream-milk-powder-tin-400-g",
+   "direct_image_url": "https://www.supermart.ng/cdn/shop/files/1copy_facb8100-f503-4ce5-b1af-a9f476f90db1.jpg?v=1690629394",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 40406,
+   "dimensions": "800x800"
+  },
+  "semovita-1kg": {
+   "file": "/products/semovita-1kg.webp",
+   "product": "semovita 1kg",
+   "source_page": "https://waziri.ng/product/golden-penny-semovita-1kg-x-10/",
+   "direct_image_url": "https://waziri.ng/wp-content/uploads/2023/12/Golden-Penny-Semovita-1kg-by-10-600x600.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 51372,
+   "dimensions": "800x800"
+  },
+  "st-louis-sugar-cubes-500g": {
+   "file": "/products/st-louis-sugar-cubes-500g.webp",
+   "product": "st louis sugar cubes 500g",
+   "source_page": "https://shoppersgatestores.com/products/st-louis-500g-sugar-cubes",
+   "direct_image_url": "https://shoppersgatestores.com/storage/ddfdfvbbvmnm-600x600.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 22648,
+   "dimensions": "800x800"
+  },
+  "three-crowns-milk-400g": {
+   "file": "/products/three-crowns-milk-400g.webp",
+   "product": "three crowns milk 400g",
+   "source_page": "https://24hoursmarket.com/product/three-crowns-milk-powder-400g/",
+   "direct_image_url": "https://24hoursmarket.com/wp-content/uploads/2022/08/1661796333016-600x600.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "400 g refill sachet (tin version is 380 g).",
+   "bytes": 37256,
+   "dimensions": "800x800"
+  },
+  "titus-sardines-125g": {
+   "file": "/products/titus-sardines-125g.webp",
+   "product": "titus sardines 125g",
+   "source_page": "https://fromatoz.com.ng/shop/titus-sardine/",
+   "direct_image_url": "https://fromatoz.com.ng/wp-content/uploads/2024/03/WhatsApp-Image-2024-07-15-at-11.26.33-AM.jpeg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 31998,
+   "dimensions": "800x800"
+  },
+  "top-tea-ginger-25": {
+   "file": "/products/top-tea-ginger-25.webp",
+   "product": "top tea ginger 25",
+   "source_page": "https://easybuyersretailmart.com/product/top-tea-ginger-25-bags/",
+   "direct_image_url": "https://easybuyersretailmart.com/wp-content/uploads/2023/08/topteagingercanva-630x630.png",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 33616,
+   "dimensions": "800x800"
+  },
+  "top-tea-lemon-25": {
+   "file": "/products/top-tea-lemon-25.webp",
+   "product": "top tea lemon 25",
+   "source_page": "https://doormartgrocery.com/product/top-tea-25-tea-bags/",
+   "direct_image_url": "https://doormartgrocery.com/wp-content/uploads/Top-tea-25-tea-bags.jpg",
+   "license_note": "Retailer/manufacturer product photo - used for product identification only.",
+   "exact_size_match": true,
+   "pack_note": "",
+   "bytes": 22364,
+   "dimensions": "800x800"
+  }
+ },
+ "editorial": {
+  "wholesale.jpg": {
+   "file": "/editorial/wholesale.jpg",
+   "source_page": "https://unsplash.com/photos/warehouse-storage-filled-with-pallets-of-goods-I-_wYj9yOzw",
+   "direct_image_url": "https://images.unsplash.com/photo-1741655262435-4890ab9918fa",
+   "license_note": "Unsplash License - free to use, no attribution required (photographer credited on the Unsplash page).",
+   "description": "Warm-lit wholesale warehouse aisle with pallets of boxed goods."
+  },
+  "store.jpg": {
+   "file": "/editorial/store.jpg",
+   "source_page": "https://unsplash.com/photos/a-grocery-store-aisle-stocked-with-fresh-produce-and-shelves-2h1O8DtRu3g",
+   "direct_image_url": "https://images.unsplash.com/photo-1767364084218-a18f3ea7e93f",
+   "license_note": "Unsplash License - free to use, no attribution required (photographer credited on the Unsplash page).",
+   "description": "Warm African/ethnic grocery interior with produce and stocked food shelves."
+  }
+ },
+ "missing": [
+  {
+   "item": "—",
+   "reason": "No product slot left empty: all 40 saved. 32 are exact-size matches; 8 use the closest real pack size where the requested size is not manufactured/stocked: dano-cool-cow-1kg (900 g), cremora-400g (500 g), kerrygold-butter-750g (454 g), coast-evaporated-milk-150g (160 g), dogan-sugar-500g (450 g), knorr-chicken-100 (50-cube 400 g), loya-whole-milk-400g (320 g), onga-beef-100 (bulk beef carton)."
+  }
+ ],
+ "verification": {
+  "all_files": "800x800 WebP, <=180 KB (largest 109 KB)",
+  "checked_with": "sips -g pixelWidth -g pixelHeight -g format"
+ }
+}

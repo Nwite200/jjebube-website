@@ -1,0 +1,1616 @@
+{
+  "categories": [
+    {
+      "id": "cat-milk",
+      "slug": "milk-creamers",
+      "name": "Milk & Creamers",
+      "tagline": "Creamy everyday nourishment",
+      "description": "Powdered, evaporated and creamer essentials for tea, coffee, cooking and family breakfasts.",
+      "image": "/products/dano-cool-cow-1kg.webp",
+      "order": 1
+    },
+    {
+      "id": "cat-tea",
+      "slug": "tea-coffee",
+      "name": "Tea & Coffee",
+      "tagline": "Slow mornings, better cups",
+      "description": "Trusted tea bags and coffee for the home, the office and the breakfast table.",
+      "image": "/products/lipton-yellow-label-100.webp",
+      "order": 2
+    },
+    {
+      "id": "cat-choc",
+      "slug": "chocolate-cocoa",
+      "name": "Chocolate & Cocoa",
+      "tagline": "Comfort in every cup",
+      "description": "Malted drinks and cocoa favourites that bring warmth to the whole family.",
+      "image": "/products/milo-refill-400g.webp",
+      "order": 3
+    },
+    {
+      "id": "cat-sugar",
+      "slug": "sugar-sweeteners",
+      "name": "Sugar & Sweeteners",
+      "tagline": "The everyday staple",
+      "description": "Granulated sugar and cubes in home and wholesale quantities.",
+      "image": "/products/dangote-sugar-50kg.webp",
+      "order": 4
+    },
+    {
+      "id": "cat-seasoning",
+      "slug": "seasonings",
+      "name": "Seasonings",
+      "tagline": "The heart of Nigerian cooking",
+      "description": "Bouillon cubes and seasoning essentials from names kitchens trust.",
+      "image": "/products/onga-beef-100.webp",
+      "order": 5
+    },
+    {
+      "id": "cat-mixes",
+      "slug": "food-mixes",
+      "name": "Food Mixes",
+      "tagline": "Simple, satisfying meals",
+      "description": "Semolina, semovita and meal-time staples for quick, filling family food.",
+      "image": "/products/semovita-1kg.webp",
+      "order": 6
+    },
+    {
+      "id": "cat-noodles",
+      "slug": "noodles",
+      "name": "Noodles & Quick Meals",
+      "tagline": "Ready when you are",
+      "description": "Instant noodles in single packs, family packs and cartons.",
+      "image": "/products/indomie-chicken-40pack.webp",
+      "order": 7
+    },
+    {
+      "id": "cat-glucose",
+      "slug": "glucose-nutrition",
+      "name": "Glucose & Nutrition",
+      "tagline": "Energy for the everyday",
+      "description": "Glucose and fortified nutrition products for growing families.",
+      "image": "/products/glucose-d-400g.webp",
+      "order": 8
+    },
+    {
+      "id": "cat-evap",
+      "slug": "evaporated-milk",
+      "name": "Evaporated Milk",
+      "tagline": "Rich, smooth, versatile",
+      "description": "Classic tinned milk for tea, pap, baking and everyday cooking.",
+      "image": "/products/peak-evaporated-milk-170g.webp",
+      "order": 9
+    },
+    {
+      "id": "cat-pantry",
+      "slug": "other-grocery",
+      "name": "Other Grocery Essentials",
+      "tagline": "The rest of the list",
+      "description": "Tomato paste, sardines, salt, cooking oil and other pantry staples.",
+      "image": "/products/gino-tomato-paste-70g.webp",
+      "order": 10
+    },
+    {
+      "id": "cat-bulk",
+      "slug": "bulk-wholesale",
+      "name": "Bulk & Wholesale",
+      "tagline": "Built for business",
+      "description": "Carton quantities and business pricing for shops, caterers and resellers.",
+      "image": "/editorial/wholesale.webp",
+      "href": "/wholesale",
+      "order": 11
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand-dano",
+      "slug": "dano",
+      "name": "Dano",
+      "note": "Dairy",
+      "hasCatalog": true,
+      "order": 1
+    },
+    {
+      "id": "brand-promasidor",
+      "slug": "promasidor",
+      "name": "Promasidor",
+      "note": "Food & beverages",
+      "order": 2
+    },
+    {
+      "id": "brand-lipton",
+      "slug": "lipton",
+      "name": "Lipton",
+      "note": "Tea",
+      "hasCatalog": true,
+      "order": 3
+    },
+    {
+      "id": "brand-toptea",
+      "slug": "top-tea",
+      "name": "Top Tea",
+      "note": "Tea",
+      "hasCatalog": true,
+      "order": 4
+    },
+    {
+      "id": "brand-nestle",
+      "slug": "nestle",
+      "name": "Nestlé",
+      "note": "Food & beverages",
+      "hasCatalog": true,
+      "order": 5
+    },
+    {
+      "id": "brand-cadbury",
+      "slug": "cadbury",
+      "name": "Cadbury",
+      "note": "Cocoa",
+      "hasCatalog": true,
+      "order": 6
+    },
+    {
+      "id": "brand-multipro",
+      "slug": "multipro",
+      "name": "MultiPro",
+      "note": "Consumer goods",
+      "order": 7
+    },
+    {
+      "id": "brand-blume",
+      "slug": "blume",
+      "name": "Blume",
+      "note": "Distribution",
+      "order": 8
+    },
+    {
+      "id": "brand-johnvent",
+      "slug": "johnvent",
+      "name": "Johnvent",
+      "note": "Distribution",
+      "order": 9
+    },
+    {
+      "id": "brand-aava",
+      "slug": "aava",
+      "name": "AAVA",
+      "note": "Beverages",
+      "order": 10
+    },
+    {
+      "id": "brand-dogan",
+      "slug": "dogan",
+      "name": "Dogan",
+      "note": "Sugar",
+      "hasCatalog": true,
+      "order": 11
+    },
+    {
+      "id": "brand-tinki",
+      "slug": "tinki",
+      "name": "Tinki",
+      "note": "Food",
+      "order": 12
+    },
+    {
+      "id": "brand-sarah",
+      "slug": "sarah",
+      "name": "Sarah",
+      "note": "Food",
+      "order": 13
+    },
+    {
+      "id": "brand-valency",
+      "slug": "valency-agro",
+      "name": "Valency Agro",
+      "note": "Agro",
+      "order": 14
+    },
+    {
+      "id": "brand-applepear",
+      "slug": "apple-pear",
+      "name": "Apple & Pear",
+      "note": "Food",
+      "order": 15
+    },
+    {
+      "id": "brand-primer",
+      "slug": "primer-food",
+      "name": "Primer Food",
+      "note": "Food",
+      "order": 16
+    },
+    {
+      "id": "brand-evans",
+      "slug": "evans",
+      "name": "Evans",
+      "note": "Consumer goods",
+      "order": 17
+    },
+    {
+      "id": "brand-oriental",
+      "slug": "oriental-food",
+      "name": "Oriental Food",
+      "note": "Food",
+      "order": 18
+    },
+    {
+      "id": "brand-goodbrand",
+      "slug": "good-brand",
+      "name": "Good Brand",
+      "note": "Everyday essentials",
+      "order": 19
+    },
+    {
+      "id": "brand-kerrygold",
+      "slug": "kerrygold",
+      "name": "Kerrygold",
+      "note": "Butter",
+      "hasCatalog": true,
+      "order": 20
+    },
+    {
+      "id": "brand-onga",
+      "slug": "onga",
+      "name": "Onga",
+      "note": "Seasoning",
+      "hasCatalog": true,
+      "order": 21
+    },
+    {
+      "id": "brand-maggi",
+      "slug": "maggi",
+      "name": "Maggi",
+      "note": "Seasoning",
+      "hasCatalog": true,
+      "order": 22
+    },
+    {
+      "id": "brand-knorr",
+      "slug": "knorr",
+      "name": "Knorr",
+      "note": "Seasoning",
+      "hasCatalog": true,
+      "order": 23
+    },
+    {
+      "id": "brand-indomie",
+      "slug": "indomie",
+      "name": "Indomie",
+      "note": "Noodles",
+      "hasCatalog": true,
+      "order": 24
+    },
+    {
+      "id": "brand-goldenpenny",
+      "slug": "golden-penny",
+      "name": "Golden Penny",
+      "note": "Foods",
+      "hasCatalog": true,
+      "order": 25
+    },
+    {
+      "id": "brand-dangote",
+      "slug": "dangote",
+      "name": "Dangote",
+      "note": "Sugar & salt",
+      "hasCatalog": true,
+      "order": 26
+    },
+    {
+      "id": "brand-stlouis",
+      "slug": "st-louis",
+      "name": "St. Louis",
+      "note": "Sugar",
+      "hasCatalog": true,
+      "order": 27
+    },
+    {
+      "id": "brand-milo",
+      "slug": "milo",
+      "name": "Milo",
+      "note": "Malted drink",
+      "hasCatalog": true,
+      "order": 28
+    },
+    {
+      "id": "brand-ovaltine",
+      "slug": "ovaltine",
+      "name": "Ovaltine",
+      "note": "Malted drink",
+      "hasCatalog": true,
+      "order": 29
+    },
+    {
+      "id": "brand-nescafe",
+      "slug": "nescafe",
+      "name": "Nescafé",
+      "note": "Coffee",
+      "hasCatalog": true,
+      "order": 30
+    },
+    {
+      "id": "brand-gino",
+      "slug": "gino",
+      "name": "Gino",
+      "note": "Tomato & spices",
+      "hasCatalog": true,
+      "order": 31
+    },
+    {
+      "id": "brand-titus",
+      "slug": "titus",
+      "name": "Titus",
+      "note": "Sardines",
+      "hasCatalog": true,
+      "order": 32
+    },
+    {
+      "id": "brand-mamador",
+      "slug": "mamador",
+      "name": "Mamador",
+      "note": "Cooking oil",
+      "hasCatalog": true,
+      "order": 33
+    },
+    {
+      "id": "brand-semovita",
+      "slug": "semovita",
+      "name": "Semovita",
+      "note": "Meal staple",
+      "hasCatalog": true,
+      "order": 34
+    },
+    {
+      "id": "brand-ideal",
+      "slug": "ideal",
+      "name": "Ideal",
+      "note": "Evaporated milk",
+      "hasCatalog": true,
+      "order": 35
+    },
+    {
+      "id": "brand-carnation",
+      "slug": "carnation",
+      "name": "Carnation",
+      "note": "Evaporated milk",
+      "hasCatalog": true,
+      "order": 36
+    },
+    {
+      "id": "brand-cowbell",
+      "slug": "cowbell",
+      "name": "Cowbell",
+      "note": "Dairy",
+      "hasCatalog": true,
+      "order": 37
+    },
+    {
+      "id": "brand-threecrowns",
+      "slug": "three-crowns",
+      "name": "Three Crowns",
+      "note": "Dairy",
+      "hasCatalog": true,
+      "order": 38
+    },
+    {
+      "id": "brand-peak",
+      "slug": "peak",
+      "name": "Peak",
+      "note": "Dairy",
+      "hasCatalog": true,
+      "order": 39
+    },
+    {
+      "id": "brand-loya",
+      "slug": "loya",
+      "name": "Loya",
+      "note": "Dairy",
+      "hasCatalog": true,
+      "order": 40
+    },
+    {
+      "id": "brand-cremora",
+      "slug": "cremora",
+      "name": "Cremora",
+      "note": "Creamer",
+      "hasCatalog": true,
+      "order": 41
+    },
+    {
+      "id": "brand-glucose-d",
+      "slug": "glucose-d",
+      "name": "Glucose D",
+      "note": "Glucose",
+      "hasCatalog": true,
+      "order": 42
+    }
+  ],
+  "products": [
+    {
+      "id": "p-dano-1kg",
+      "slug": "dano-cool-cow-1kg",
+      "name": "Dano Cool Cow Instant Filled Milk Powder",
+      "brandSlug": "dano",
+      "categorySlug": "milk-creamers",
+      "packSize": "1kg",
+      "unit": "tin",
+      "sku": "JJE-DAN-1KG",
+      "price": 3800,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 48,
+      "image": "/products/dano-cool-cow-1kg.webp",
+      "gallery": [],
+      "description": "A creamy, everyday filled milk powder for tea, coffee, pap, baking and family breakfasts. Blends smoothly and stores conveniently.",
+      "details": [
+        "Instant filled milk powder",
+        "Rich in vitamin A and calcium",
+        "Sealed tin for freshness",
+        "Store in a cool, dry place"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "dairy",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-12"
+    },
+    {
+      "id": "p-dano-400g",
+      "slug": "dano-cool-cow-400g",
+      "name": "Dano Cool Cow Instant Filled Milk Powder",
+      "brandSlug": "dano",
+      "categorySlug": "milk-creamers",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-DAN-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 72,
+      "image": "/products/dano-cool-cow-400g.webp",
+      "gallery": [],
+      "description": "The smaller Dano Cool Cow tin for households that use milk in moderation. Same creamy taste, easy to store.",
+      "details": [
+        "Instant filled milk powder",
+        "Convenient 400g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-03"
+    },
+    {
+      "id": "p-peak-400g",
+      "slug": "peak-full-cream-milk-400g",
+      "name": "Peak Full Cream Instant Milk Powder",
+      "brandSlug": "peak",
+      "categorySlug": "milk-creamers",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-PEA-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 36,
+      "image": "/products/peak-full-cream-milk-400g.webp",
+      "gallery": [],
+      "description": "Full cream milk powder known for its rich, smooth taste. A dependable choice for tea, coffee and cereal.",
+      "details": [
+        "Full cream milk powder",
+        "Resealable tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "p-threecrowns-400g",
+      "slug": "three-crowns-milk-400g",
+      "name": "Three Crowns Evaporated Milk",
+      "brandSlug": "three-crowns",
+      "categorySlug": "evaporated-milk",
+      "packSize": "160g",
+      "unit": "tin",
+      "sku": "JJE-TCR-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 30,
+      "image": "/products/three-crowns-milk-400g.webp",
+      "gallery": [],
+      "description": "Classic Three Crowns evaporated milk for tea, pap, custard and everyday cooking.",
+      "details": [
+        "Full cream milk powder",
+        "400g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "p-nido-400g",
+      "slug": "nido-fortified-milk-400g",
+      "name": "NIDO Fortified Milk Powder",
+      "brandSlug": "nestle",
+      "categorySlug": "milk-creamers",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-NID-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 24,
+      "image": "/products/nido-fortified-milk-400g.webp",
+      "gallery": [],
+      "description": "Fortified milk powder for the family table, in a resealable tin that keeps it fresh.",
+      "details": [
+        "Fortified milk powder",
+        "Resealable tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": true,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-09-18"
+    },
+    {
+      "id": "p-cowbell-400g",
+      "slug": "cowbell-milk-400g",
+      "name": "Cowbell Milk Powder",
+      "brandSlug": "cowbell",
+      "categorySlug": "milk-creamers",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-COW-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 54,
+      "image": "/products/cowbell-milk-400g.webp",
+      "gallery": [],
+      "description": "A household milk brand with a smooth, milky taste for drinks, tea and cereals.",
+      "details": [
+        "Instant milk powder",
+        "400g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-08"
+    },
+    {
+      "id": "p-loya-400g",
+      "slug": "loya-whole-milk-400g",
+      "name": "Loya Whole Milk Powder",
+      "brandSlug": "loya",
+      "categorySlug": "milk-creamers",
+      "packSize": "400g",
+      "unit": "sachet",
+      "sku": "JJE-LOY-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 60,
+      "image": "/products/loya-whole-milk-400g.webp",
+      "gallery": [],
+      "description": "Whole milk powder in a practical sachet, suited to homes and small food businesses.",
+      "details": [
+        "Whole milk powder",
+        "Practical sachet",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-14"
+    },
+    {
+      "id": "p-cremora-400g",
+      "slug": "cremora-400g",
+      "name": "Cremora Coffee Creamer",
+      "brandSlug": "cremora",
+      "categorySlug": "milk-creamers",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-CRE-400G",
+      "price": 3200,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 41,
+      "image": "/products/cremora-400g.webp",
+      "gallery": [],
+      "description": "A smooth non-dairy creamer that gives tea and coffee a rich, creamy finish without needing fresh milk.",
+      "details": [
+        "Non-dairy coffee creamer",
+        "400g tin",
+        "Stir into hot tea or coffee",
+        "Store in a cool, dry place"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "creamer",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": "p-kerrygold-750g",
+      "slug": "kerrygold-butter-750g",
+      "name": "Kerrygold Pure Irish Butter",
+      "brandSlug": "kerrygold",
+      "categorySlug": "milk-creamers",
+      "packSize": "750g",
+      "unit": "pack",
+      "sku": "JJE-KER-750G",
+      "price": 6500,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 18,
+      "image": "/products/kerrygold-butter-750g.webp",
+      "gallery": [],
+      "description": "Rich, creamy pure Irish butter for baking, cooking and spreading. A premium kitchen staple.",
+      "details": [
+        "Pure Irish butter",
+        "750g pack",
+        "Keep refrigerated",
+        "Suitable for baking and cooking"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "butter",
+        "premium"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-18"
+    },
+    {
+      "id": "p-peak-evap-170g",
+      "slug": "peak-evaporated-milk-170g",
+      "name": "Peak Evaporated Milk",
+      "brandSlug": "peak",
+      "categorySlug": "evaporated-milk",
+      "packSize": "170g",
+      "unit": "tin",
+      "sku": "JJE-PKE-170G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 96,
+      "image": "/products/peak-evaporated-milk-170g.webp",
+      "gallery": [],
+      "description": "Classic evaporated milk for tea, pap, custard and cooking. Rich and smooth straight from the tin.",
+      "details": [
+        "Evaporated milk",
+        "170g tin",
+        "Shake well before use",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "p-carnation-170g",
+      "slug": "carnation-evaporated-milk-170g",
+      "name": "Carnation Evaporated Milk",
+      "brandSlug": "carnation",
+      "categorySlug": "evaporated-milk",
+      "packSize": "170g",
+      "unit": "tin",
+      "sku": "JJE-CAR-170G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 84,
+      "image": "/products/carnation-evaporated-milk-170g.webp",
+      "gallery": [],
+      "description": "A dependable evaporated milk for everyday drinks, desserts and family recipes.",
+      "details": [
+        "Evaporated milk",
+        "170g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-25"
+    },
+    {
+      "id": "p-ideal-170g",
+      "slug": "ideal-evaporated-milk-170g",
+      "name": "Ideal Evaporated Milk",
+      "brandSlug": "ideal",
+      "categorySlug": "evaporated-milk",
+      "packSize": "170g",
+      "unit": "tin",
+      "sku": "JJE-IDE-170G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 78,
+      "image": "/products/ideal-evaporated-milk-170g.webp",
+      "gallery": [],
+      "description": "Creamy evaporated milk for tea, coffee, pap and cooking.",
+      "details": [
+        "Evaporated milk",
+        "170g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-28"
+    },
+    {
+      "id": "p-coast-evap-150g",
+      "slug": "coast-evaporated-milk-150g",
+      "name": "Coast Evaporated Milk",
+      "brandSlug": "promasidor",
+      "categorySlug": "evaporated-milk",
+      "packSize": "150g",
+      "unit": "tin",
+      "sku": "JJE-CST-150G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 90,
+      "image": "/products/coast-evaporated-milk-150g.webp",
+      "gallery": [],
+      "description": "An affordable everyday evaporated milk, useful for large-family cooking and food service.",
+      "details": [
+        "Evaporated milk",
+        "150g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "dairy"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-05"
+    },
+    {
+      "id": "p-lipton-100",
+      "slug": "lipton-yellow-label-100",
+      "name": "Lipton Yellow Label Tea",
+      "brandSlug": "lipton",
+      "categorySlug": "tea-coffee",
+      "packSize": "100 tea bags",
+      "unit": "box",
+      "sku": "JJE-LIP-100B",
+      "price": 4200,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 32,
+      "image": "/products/lipton-yellow-label-100.webp",
+      "gallery": [],
+      "description": "The classic bright, refreshing cup. A 100-bag box built for homes, offices and busy kitchens.",
+      "details": [
+        "100 tea bags",
+        "Black tea",
+        "Brew in freshly boiled water",
+        "Store in a cool, dry place"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "tea",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-11"
+    },
+    {
+      "id": "p-lipton-50",
+      "slug": "lipton-yellow-label-50",
+      "name": "Lipton Yellow Label Tea",
+      "brandSlug": "lipton",
+      "categorySlug": "tea-coffee",
+      "packSize": "50 tea bags",
+      "unit": "box",
+      "sku": "JJE-LIP-50B",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 44,
+      "image": "/products/lipton-yellow-label-50.webp",
+      "gallery": [],
+      "description": "A smaller box of the same familiar Lipton tea, ideal for smaller households and offices.",
+      "details": [
+        "50 tea bags",
+        "Black tea",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "tea"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-11"
+    },
+    {
+      "id": "p-toptea-ginger",
+      "slug": "top-tea-ginger-25",
+      "name": "Top Tea Ginger",
+      "brandSlug": "top-tea",
+      "categorySlug": "tea-coffee",
+      "packSize": "25 tea bags",
+      "unit": "box",
+      "sku": "JJE-TOP-GIN25",
+      "price": 1500,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 56,
+      "image": "/products/top-tea-ginger-25.webp",
+      "gallery": [],
+      "description": "A warming ginger tea with the familiar Top Tea flavour. Comforting on a cool morning or after a meal.",
+      "details": [
+        "25 tea bags",
+        "Ginger flavour",
+        "Brew in freshly boiled water",
+        "Store in a cool, dry place"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "tea"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-07"
+    },
+    {
+      "id": "p-toptea-lemon",
+      "slug": "top-tea-lemon-25",
+      "name": "Top Tea Lemon",
+      "brandSlug": "top-tea",
+      "categorySlug": "tea-coffee",
+      "packSize": "25 tea bags",
+      "unit": "box",
+      "sku": "JJE-TOP-LEM25",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 50,
+      "image": "/products/top-tea-lemon-25.webp",
+      "gallery": [],
+      "description": "A bright lemon tea from Top Tea, refreshing hot or served over ice.",
+      "details": [
+        "25 tea bags",
+        "Lemon flavour",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": true,
+      "tags": [
+        "tea"
+      ],
+      "variants": [],
+      "createdAt": "2026-09-22"
+    },
+    {
+      "id": "p-nescafe-100g",
+      "slug": "nescafe-classic-100g",
+      "name": "Nescafé Classic Coffee",
+      "brandSlug": "nescafe",
+      "categorySlug": "tea-coffee",
+      "packSize": "100g",
+      "unit": "jar",
+      "sku": "JJE-NES-100G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 38,
+      "image": "/products/nescafe-classic-100g.webp",
+      "gallery": [],
+      "description": "Instant coffee with a rich aroma, ready in moments. The 100g jar keeps the office and kitchen stocked.",
+      "details": [
+        "Instant coffee",
+        "100g jar",
+        "Add hot water or milk",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "coffee"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-30"
+    },
+    {
+      "id": "p-milo-400g",
+      "slug": "milo-refill-400g",
+      "name": "Milo Chocolate Malt Drink Refill",
+      "brandSlug": "milo",
+      "categorySlug": "chocolate-cocoa",
+      "packSize": "400g",
+      "unit": "pouch",
+      "sku": "JJE-MIL-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 64,
+      "image": "/products/milo-refill-400g.webp",
+      "gallery": [],
+      "description": "The chocolate malt drink families grew up with. A 400g refill pouch for everyday cups and cold Milo.",
+      "details": [
+        "Chocolate malt drink",
+        "400g refill pouch",
+        "Hot or cold",
+        "Store in a cool, dry place"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "cocoa",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-09"
+    },
+    {
+      "id": "p-bournvita-500g",
+      "slug": "bournvita-500g",
+      "name": "Cadbury Bournvita",
+      "brandSlug": "cadbury",
+      "categorySlug": "chocolate-cocoa",
+      "packSize": "500g",
+      "unit": "jar",
+      "sku": "JJE-BOU-500G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 42,
+      "image": "/products/bournvita-500g.webp",
+      "gallery": [],
+      "description": "The familiar cocoa and malt drink, a breakfast-table staple across Nigeria.",
+      "details": [
+        "Cocoa and malt drink",
+        "500g jar",
+        "Serve hot or chilled",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "cocoa",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-13"
+    },
+    {
+      "id": "p-ovaltine-400g",
+      "slug": "ovaltine-400g",
+      "name": "Ovaltine Chocolate Malt Drink",
+      "brandSlug": "ovaltine",
+      "categorySlug": "chocolate-cocoa",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-OVA-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 26,
+      "image": "/products/ovaltine-400g.webp",
+      "gallery": [],
+      "description": "A smooth chocolate malt drink for breakfast and bedtime, in a resealable tin.",
+      "details": [
+        "Chocolate malt drink",
+        "400g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "cocoa"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-11"
+    },
+    {
+      "id": "p-cadbury-drinking-500g",
+      "slug": "cadbury-drinking-chocolate-500g",
+      "name": "Cadbury Drinking Chocolate",
+      "brandSlug": "cadbury",
+      "categorySlug": "chocolate-cocoa",
+      "packSize": "500g",
+      "unit": "tin",
+      "sku": "JJE-CAD-500G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 22,
+      "image": "/products/cadbury-drinking-chocolate-500g.webp",
+      "gallery": [],
+      "description": "Rich drinking chocolate for cosy cups, desserts and family treats.",
+      "details": [
+        "Drinking chocolate",
+        "500g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": true,
+      "tags": [
+        "cocoa"
+      ],
+      "variants": [],
+      "createdAt": "2026-09-26"
+    },
+    {
+      "id": "p-dangote-sugar-50kg",
+      "slug": "dangote-sugar-50kg",
+      "name": "Dangote Refined Granulated Sugar",
+      "brandSlug": "dangote",
+      "categorySlug": "sugar-sweeteners",
+      "packSize": "50kg",
+      "unit": "bag",
+      "sku": "JJE-DAN-50KG",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 12,
+      "image": "/products/dangote-sugar-50kg.webp",
+      "gallery": [],
+      "description": "A full 50kg bag of refined granulated sugar for bakeries, restaurants, shops and large households.",
+      "details": [
+        "Refined granulated sugar",
+        "50kg bag",
+        "Wholesale quantity",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "sugar",
+        "wholesale"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-16"
+    },
+    {
+      "id": "p-stlouis-500g",
+      "slug": "st-louis-sugar-cubes-500g",
+      "name": "St. Louis Sugar Cubes",
+      "brandSlug": "st-louis",
+      "categorySlug": "sugar-sweeteners",
+      "packSize": "500g",
+      "unit": "box",
+      "sku": "JJE-STL-500G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 46,
+      "image": "/products/st-louis-sugar-cubes-500g.webp",
+      "gallery": [],
+      "description": "Neat sugar cubes for tea trays, offices and hospitality service.",
+      "details": [
+        "White sugar cubes",
+        "500g box",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "sugar"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-02"
+    },
+    {
+      "id": "p-dogan-500g",
+      "slug": "dogan-sugar-500g",
+      "name": "Dogan's Sugar Cubes",
+      "brandSlug": "dogan",
+      "categorySlug": "sugar-sweeteners",
+      "packSize": "500g",
+      "unit": "pack",
+      "sku": "JJE-DOG-500G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 68,
+      "image": "/products/dogan-sugar-500g.webp",
+      "gallery": [],
+      "description": "Dogan's vitamin A fortified sugar cubes for tea, coffee and hospitality service.",
+      "details": [
+        "Granulated sugar",
+        "500g pack",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "sugar"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-09"
+    },
+    {
+      "id": "p-onga-beef-100",
+      "slug": "onga-beef-100",
+      "name": "Onga Beef Seasoning Cubes",
+      "brandSlug": "onga",
+      "categorySlug": "seasonings",
+      "packSize": "100 cubes",
+      "unit": "pack",
+      "sku": "JJE-ONG-BEF100",
+      "price": 2300,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 58,
+      "image": "/products/onga-beef-100.webp",
+      "gallery": [],
+      "description": "Onga's beef seasoning cubes, a kitchen staple for stews, soups, rice and everyday Nigerian cooking.",
+      "details": [
+        "Beef flavour seasoning cubes",
+        "100 cubes",
+        "Use one cube per pot to taste",
+        "Store in a cool, dry place"
+      ],
+      "featured": true,
+      "isNew": false,
+      "tags": [
+        "seasoning",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "p-onga-chicken-100",
+      "slug": "onga-chicken-100",
+      "name": "Onga Chicken Seasoning Cubes",
+      "brandSlug": "onga",
+      "categorySlug": "seasonings",
+      "packSize": "100 cubes",
+      "unit": "pack",
+      "sku": "JJE-ONG-CHK100",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 52,
+      "image": "/products/onga-chicken-100.webp",
+      "gallery": [],
+      "description": "Chicken-flavour Onga cubes for rich, savoury stews, soups and rice dishes.",
+      "details": [
+        "Chicken flavour seasoning cubes",
+        "100 cubes",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "seasoning"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "p-maggi-100",
+      "slug": "maggi-chicken-100",
+      "name": "Maggi Chicken Seasoning Cubes",
+      "brandSlug": "maggi",
+      "categorySlug": "seasonings",
+      "packSize": "100 cubes",
+      "unit": "pack",
+      "sku": "JJE-MAG-CHK100",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 63,
+      "image": "/products/maggi-chicken-100.webp",
+      "gallery": [],
+      "description": "The classic Maggi chicken cube, trusted in kitchens across Nigeria for deep, savoury flavour.",
+      "details": [
+        "Chicken flavour seasoning cubes",
+        "100 cubes",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "seasoning",
+        "bestseller"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-14"
+    },
+    {
+      "id": "p-knorr-100",
+      "slug": "knorr-chicken-100",
+      "name": "Knorr Chicken Seasoning Cubes",
+      "brandSlug": "knorr",
+      "categorySlug": "seasonings",
+      "packSize": "100 cubes",
+      "unit": "pack",
+      "sku": "JJE-KNO-CHK100",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 47,
+      "image": "/products/knorr-chicken-100.webp",
+      "gallery": [],
+      "description": "Knorr chicken cubes for consistent, full-flavoured cooking at home or in a commercial kitchen.",
+      "details": [
+        "Chicken flavour seasoning cubes",
+        "100 cubes",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "seasoning"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-19"
+    },
+    {
+      "id": "p-semovita-1kg",
+      "slug": "semovita-1kg",
+      "name": "Semovita",
+      "brandSlug": "semovita",
+      "categorySlug": "food-mixes",
+      "packSize": "1kg",
+      "unit": "pack",
+      "sku": "JJE-SEM-1KG",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 40,
+      "image": "/products/semovita-1kg.webp",
+      "gallery": [],
+      "description": "A smooth semolina-style meal for pairing with soups and stews. Quick to prepare and filling.",
+      "details": [
+        "Semolina meal",
+        "1kg pack",
+        "Cook with water until smooth",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "food"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-06"
+    },
+    {
+      "id": "p-goldenpenny-semolina-1kg",
+      "slug": "golden-penny-semolina-1kg",
+      "name": "Golden Penny Semolina",
+      "brandSlug": "golden-penny",
+      "categorySlug": "food-mixes",
+      "packSize": "1kg",
+      "unit": "pack",
+      "sku": "JJE-GPS-1KG",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 35,
+      "image": "/products/golden-penny-semolina-1kg.webp",
+      "gallery": [],
+      "description": "A trusted semolina for smooth, satisfying meals. Pairs beautifully with egusi, ogbono and vegetable soup.",
+      "details": [
+        "Semolina",
+        "1kg pack",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "food"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-08"
+    },
+    {
+      "id": "p-indomie-40",
+      "slug": "indomie-chicken-40pack",
+      "name": "Indomie Chicken Flavour Instant Noodles",
+      "brandSlug": "indomie",
+      "categorySlug": "noodles",
+      "packSize": "70g × 40 packs",
+      "unit": "carton",
+      "sku": "JJE-IND-CHK40",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 16,
+      "image": "/products/indomie-chicken-40pack.webp",
+      "gallery": [],
+      "description": "A full carton of Indomie chicken noodles for shops, offices, hostels and busy families.",
+      "details": [
+        "Chicken flavour instant noodles",
+        "40 packs × 70g",
+        "Carton quantity",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "noodles",
+        "wholesale"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-21"
+    },
+    {
+      "id": "p-indomie-5",
+      "slug": "indomie-onion-chicken-5pack",
+      "name": "Indomie Onion Chicken Flavour Noodles",
+      "brandSlug": "indomie",
+      "categorySlug": "noodles",
+      "packSize": "70g × 5 packs",
+      "unit": "pack",
+      "sku": "JJE-IND-ONI5",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 44,
+      "image": "/products/indomie-onion-chicken-5pack.webp",
+      "gallery": [],
+      "description": "A five-pack of Indomie onion chicken noodles for quick meals at home or in the office.",
+      "details": [
+        "Onion chicken flavour",
+        "5 packs × 70g",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "noodles"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": "p-goldenpenny-noodles-5",
+      "slug": "golden-penny-noodles-chicken-5pack",
+      "name": "Golden Penny Chicken Noodles",
+      "brandSlug": "golden-penny",
+      "categorySlug": "noodles",
+      "packSize": "70g × 5 packs",
+      "unit": "pack",
+      "sku": "JJE-GPN-CHK5",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 38,
+      "image": "/products/golden-penny-noodles-chicken-5pack.webp",
+      "gallery": [],
+      "description": "Golden Penny chicken noodles in a convenient five-pack for quick, filling meals.",
+      "details": [
+        "Chicken flavour instant noodles",
+        "5 packs × 70g",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": true,
+      "tags": [
+        "noodles"
+      ],
+      "variants": [],
+      "createdAt": "2026-09-28"
+    },
+    {
+      "id": "p-glucose-d-400g",
+      "slug": "glucose-d-400g",
+      "name": "Glucose D",
+      "brandSlug": "glucose-d",
+      "categorySlug": "glucose-nutrition",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-GLD-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 33,
+      "image": "/products/glucose-d-400g.webp",
+      "gallery": [],
+      "description": "A classic glucose energy supplement, useful for quick energy and family nutrition.",
+      "details": [
+        "Glucose powder",
+        "400g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "nutrition"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-12"
+    },
+    {
+      "id": "p-cerelac-400g",
+      "slug": "cerelac-wheat-400g",
+      "name": "Nestlé Cerelac Wheat",
+      "brandSlug": "nestle",
+      "categorySlug": "glucose-nutrition",
+      "packSize": "400g",
+      "unit": "tin",
+      "sku": "JJE-CER-400G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 27,
+      "image": "/products/cerelac-wheat-400g.webp",
+      "gallery": [],
+      "description": "Wheat-based infant cereal for growing babies, prepared smooth and easy to digest.",
+      "details": [
+        "Infant cereal",
+        "Wheat",
+        "400g tin",
+        "Follow pack preparation instructions"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "nutrition"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-13"
+    },
+    {
+      "id": "p-dangote-salt-1kg",
+      "slug": "dangote-salt-1kg",
+      "name": "Dangote Salt",
+      "brandSlug": "dangote",
+      "categorySlug": "other-grocery",
+      "packSize": "1kg",
+      "unit": "pack",
+      "sku": "JJE-DAS-1KG",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 80,
+      "image": "/products/dangote-salt-1kg.webp",
+      "gallery": [],
+      "description": "Iodised table salt for everyday cooking, in a handy 1kg pack.",
+      "details": [
+        "Iodised salt",
+        "1kg pack",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "pantry"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": "p-gino-70g",
+      "slug": "gino-tomato-paste-70g",
+      "name": "Gino Tomato Paste",
+      "brandSlug": "gino",
+      "categorySlug": "other-grocery",
+      "packSize": "70g",
+      "unit": "sachet",
+      "sku": "JJE-GIN-70G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 120,
+      "image": "/products/gino-tomato-paste-70g.webp",
+      "gallery": [],
+      "description": "Rich tomato paste for stews, rice and sauces. A pantry essential in a convenient sachet.",
+      "details": [
+        "Tomato paste",
+        "70g sachet",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "pantry"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-26"
+    },
+    {
+      "id": "p-titus-125g",
+      "slug": "titus-sardines-125g",
+      "name": "Titus Sardines",
+      "brandSlug": "titus",
+      "categorySlug": "other-grocery",
+      "packSize": "125g",
+      "unit": "tin",
+      "sku": "JJE-TIT-125G",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 58,
+      "image": "/products/titus-sardines-125g.webp",
+      "gallery": [],
+      "description": "Tasty sardines in vegetable oil, ready for bread, rice, pasta and quick meals.",
+      "details": [
+        "Sardines in vegetable oil",
+        "125g tin",
+        "Store in a cool, dry place"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "pantry"
+      ],
+      "variants": [],
+      "createdAt": "2026-01-27"
+    },
+    {
+      "id": "p-mamador-1l",
+      "slug": "mamador-vegetable-oil-1l",
+      "name": "Mamador Vegetable Oil",
+      "brandSlug": "mamador",
+      "categorySlug": "other-grocery",
+      "packSize": "1L",
+      "unit": "bottle",
+      "sku": "JJE-MAM-1L",
+      "price": null,
+      "compareAtPrice": null,
+      "wholesalePrice": null,
+      "stock": 42,
+      "image": "/products/mamador-vegetable-oil-1l.webp",
+      "gallery": [],
+      "description": "A dependable cooking oil for frying, stews and everyday Nigerian cooking.",
+      "details": [
+        "Vegetable cooking oil",
+        "1 litre bottle",
+        "Store away from direct sunlight"
+      ],
+      "featured": false,
+      "isNew": false,
+      "tags": [
+        "pantry"
+      ],
+      "variants": [],
+      "createdAt": "2026-02-04"
+    }
+  ]
+}
