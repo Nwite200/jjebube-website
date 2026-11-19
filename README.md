@@ -160,6 +160,16 @@ npm run typecheck  # TypeScript
 
 The footer includes a discreet **Staff / POS Login** link to the point-of-sale subdomain: https://pos.jjebubeenterprise.com.ng/
 
+## cPanel deployment
+
+This project is deployed on the Namecheap cPanel account using the CloudLinux Node.js Selector (Node 22) and Passenger.
+
+- App root: separate from the domain document root; the domain `.htaccess` contains the Passenger configuration.
+- Runtime entry: `server.js` (loads `.env.local`, then starts Next on the Passenger socket).
+- Build on the server with `npm run build -- --webpack`. Turbopack's native bindings require a newer glibc than the host provides; webpack compiles successfully. `experimental.cpus = 2` keeps the build within the account's process limits.
+- After a code update: upload/extract the project (without `node_modules`, `.next`, `.git`), run `npm run build -- --webpack`, then restart the Node app. Do not overwrite `.env.local`.
+- Required server environment: `NEXT_PUBLIC_SITE_URL`, `ADMIN_PASSWORD`, `AUTH_SECRET`.
+
 ## Notes
 
 - The admin session is an HMAC-signed, http-only cookie with an 8-hour expiry. Server actions re-check authorisation.

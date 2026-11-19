@@ -1,12 +1,1 @@
-[
-  {
-    "id": "MSG-MWO64389",
-    "createdAt": "2026-11-19T23:15:01.593Z",
-    "name": "Test User",
-    "phone": "08031234567",
-    "email": "test@example.com",
-    "subject": "Product enquiry",
-    "message": "Please confirm availability.",
-    "read": false
-  }
-]
+[]
