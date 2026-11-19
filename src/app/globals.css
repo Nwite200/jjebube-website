@@ -911,3 +911,136 @@ html[data-brand-intro="active"] .brand-intro {
     box-shadow: 0 0 20px rgba(217, 172, 66, 0.24);
   }
 }
+
+/* ---------- Per-click mini brand intro (short, non-blocking) ---------- */
+.click-brand-intro {
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: click-intro 460ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.click-brand-intro__veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 26, 58, 0.9);
+}
+
+.click-brand-intro__glow {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(217, 172, 66, 0.22), transparent 68%);
+  filter: blur(8px);
+  animation: click-intro-glow 460ms ease-out both;
+}
+
+.click-brand-intro__stage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: click-intro-stage 460ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.click-brand-intro__logo {
+  position: relative;
+  width: 116px;
+  height: 116px;
+  overflow: hidden;
+  border-radius: 9999px;
+  border: 1px solid rgba(217, 172, 66, 0.55);
+  background: #f7f4ed;
+  box-shadow: 0 0 38px rgba(217, 172, 66, 0.28);
+}
+
+.click-brand-intro__ring {
+  position: absolute;
+  inset: -7px;
+  border-radius: 9999px;
+  border: 1px solid rgba(241, 213, 139, 0.6);
+  animation: click-intro-ring 460ms ease-out both;
+}
+
+.click-brand-intro .gold-shimmer.is-active {
+  animation-duration: 360ms;
+  animation-delay: 40ms;
+}
+
+.click-brand-intro__word {
+  margin-top: 14px;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.16em;
+  color: #f7f4ed;
+}
+
+.click-brand-intro__sub {
+  margin-top: 4px;
+  font-size: 0.45rem;
+  font-weight: 700;
+  letter-spacing: 0.36em;
+  color: rgba(241, 213, 139, 0.75);
+}
+
+@keyframes click-intro {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes click-intro-stage {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.92);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(0) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes click-intro-glow {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes click-intro-ring {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  40% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.28);
+  }
+}
