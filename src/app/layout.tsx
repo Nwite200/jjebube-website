@@ -54,12 +54,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-NG" suppressHydrationWarning className={`${playfair.variable} ${manrope.variable}`}>
+    <html lang="en-NG" suppressHydrationWarning data-scroll-behavior="smooth" className={`${playfair.variable} ${manrope.variable}`}>
       <body className="min-h-screen bg-ivory font-sans text-charcoal antialiased">
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "(function(){try{var seen=sessionStorage.getItem('jje-brand-intro-seen');var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(!seen&&!reduce){document.documentElement.setAttribute('data-brand-intro','active');}}catch(e){}})();",
+              "(function(){try{var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(!reduce){document.documentElement.setAttribute('data-brand-intro','active');}}catch(e){}})();",
           }}
         />
         <a

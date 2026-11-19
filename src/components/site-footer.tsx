@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Clock, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Clock, LockKeyhole, MapPin, MessageCircle, Phone, ShieldCheck } from "lucide-react";
 import { Logo } from "./logo";
 import { NewsletterForm } from "./newsletter-form";
 import { getCategories, getSettings } from "@/lib/db";
@@ -122,6 +122,11 @@ export async function SiteFooter() {
                   Track an Order
                 </Link>
               </li>
+              <li>
+                <Link href="/admin/login" className="flex items-center gap-1.5 text-[0.8rem] text-gold-soft/80 transition hover:text-gold-soft">
+                  <ShieldCheck className="size-3.5" /> Admin Login
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -155,6 +160,21 @@ export async function SiteFooter() {
             <span>© {new Date().getFullYear()} JJ Ebube Enterprise. All rights reserved.</span>
             <span className="hidden h-3 w-px bg-ivory/15 md:block" />
             <span>Retail · Wholesale · Bulk Orders</span>
+            <Link
+              href="/admin/login"
+              className="inline-flex items-center gap-1.5 border border-gold/40 bg-gold/10 px-2.5 py-1 text-[0.58rem] font-bold uppercase tracking-[0.1em] text-gold-soft transition hover:border-gold hover:bg-gold/15"
+            >
+              <LockKeyhole className="size-3" /> Admin Login
+            </Link>
+            <a
+              href="https://pos.jjebubeenterprise.com.ng/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Staff login to the JJ Ebube point of sale"
+              className="inline-flex items-center gap-1.5 border border-ivory/15 px-2.5 py-1 text-[0.58rem] font-bold uppercase tracking-[0.1em] text-ivory/55 transition hover:border-gold/60 hover:text-gold-soft"
+            >
+              <LockKeyhole className="size-3" /> Staff POS
+            </a>
           </div>
           <p className="font-display text-sm italic text-gold-soft/80">
             Your Trusted Store for Quality Products.

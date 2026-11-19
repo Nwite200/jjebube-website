@@ -151,10 +151,14 @@ npm run typecheck  # TypeScript
 
 ## Brand motion
 
-- The cinematic logo intro runs once per browser session (skipped instantly for `prefers-reduced-motion`).
+- The cinematic logo intro replays on every full page load (skipped instantly for `prefers-reduced-motion`).
 - The header logo gives a short gold ring, glow and shine on every click anywhere on the storefront.
 - Clicking the logo itself plays the stronger signature motion (lift + ring + shine) and returns home.
 - All motion is CSS-driven, GPU-friendly and non-blocking; content is never delayed.
+
+## Staff & POS
+
+The footer includes a discreet **Staff / POS Login** link to the point-of-sale subdomain: https://pos.jjebubeenterprise.com.ng/
 
 ## Notes
 

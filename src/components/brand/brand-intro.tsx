@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { GoldShimmer } from "./gold-shimmer";
-import { INTRO_SESSION_KEY, prefersReducedMotion } from "@/lib/brand-events";
+import { prefersReducedMotion } from "@/lib/brand-events";
 
 /**
  * A short, cinematic first-visit brand moment. It renders over the storefront,
@@ -27,12 +27,6 @@ export function BrandIntro() {
       document.documentElement.removeAttribute("data-brand-intro");
       setVisible(false);
       return;
-    }
-
-    try {
-      sessionStorage.setItem(INTRO_SESSION_KEY, "1");
-    } catch {
-      /* private mode — the intro can simply play again next time */
     }
 
     const skip = () => setSkipping(true);
