@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ArrowUpRight, Check, Loader2 } from "lucide-react";
 import { whatsappUrl } from "@/lib/utils";
+import { completeBrandActivity } from "@/lib/brand-events";
 
 const SUBJECTS = [
   "Product enquiry",
@@ -47,6 +48,8 @@ export function ContactForm({ whatsapp }: { whatsapp: string }) {
     } catch {
       setError("Something went wrong. Please try again or message us on WhatsApp.");
       setState("idle");
+    } finally {
+      completeBrandActivity();
     }
   }
 

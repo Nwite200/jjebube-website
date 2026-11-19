@@ -65,7 +65,7 @@ export function CartView() {
   ].join("\n");
 
   return (
-    <div className="container-edge py-10 md:py-14">
+    <div className="container-edge py-10 md:py-14" data-brand-quick>
       <div className="grid gap-10 lg:grid-cols-[1fr_370px] lg:gap-14">
         <div>
           <div className="flex items-center justify-between border-b border-navy/10 pb-4">

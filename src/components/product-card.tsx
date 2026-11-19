@@ -89,6 +89,7 @@ export function ProductCard({
 
         <button
           type="button"
+          data-brand-quick
           onClick={() => {
             toggleWish(product.id);
             pushToast({
@@ -161,6 +162,7 @@ export function ProductCard({
           {canBuy ? (
             <button
               type="button"
+              data-brand-quick
               onClick={handleAdd}
               className={cn(
                 "mt-3 flex h-10 w-full items-center justify-center gap-2 text-[0.62rem] font-extrabold uppercase tracking-[0.12em] transition-all duration-300",

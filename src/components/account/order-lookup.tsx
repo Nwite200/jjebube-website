@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight, ArrowUpRight, CheckCircle2, Clock, PackageSearch, Truck } from "lucide-react";
 import { formatNaira } from "@/lib/utils";
 import { ProductImage } from "@/components/product-image";
+import { completeBrandActivity } from "@/lib/brand-events";
 
 type LookupOrder = {
   number: string;
@@ -65,6 +66,7 @@ export function OrderLookup() {
       setError("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
+      completeBrandActivity();
     }
   }
 

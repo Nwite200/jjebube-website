@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ArrowUpRight, Check, ChevronDown, Loader2 } from "lucide-react";
 import { whatsappUrl } from "@/lib/utils";
+import { completeBrandActivity } from "@/lib/brand-events";
 
 export function WholesaleForm({ whatsapp }: { whatsapp: string }) {
   const [form, setForm] = useState({
@@ -62,6 +63,8 @@ export function WholesaleForm({ whatsapp }: { whatsapp: string }) {
     } catch {
       setError("Something went wrong. Please try again or message us on WhatsApp.");
       setState("idle");
+    } finally {
+      completeBrandActivity();
     }
   }
 

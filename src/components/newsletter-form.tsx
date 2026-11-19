@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
+import { completeBrandActivity } from "@/lib/brand-events";
 
 export function NewsletterForm() {
   const [email, setEmail] = useState("");
@@ -25,6 +26,8 @@ export function NewsletterForm() {
     } catch (err) {
       setState("error");
       setMessage(err instanceof Error ? err.message : "Please try again.");
+    } finally {
+      completeBrandActivity();
     }
   }
 

@@ -145,7 +145,7 @@ export function ShopClient({ products, categories, brands, lockedCategory, locke
   }
 
   const filterPanel = (
-    <div className="space-y-7">
+    <div className="space-y-7" data-brand-quick>
       <div className="flex items-center justify-between">
         <p className="eyebrow text-navy/40">Refine your shelf</p>
         {activeCount > 0 && (
@@ -315,6 +315,7 @@ export function ShopClient({ products, categories, brands, lockedCategory, locke
               <div className="relative">
                 <select
                   value={sort}
+                  data-brand-quick
                   onChange={(e) => setSort(e.target.value)}
                   aria-label="Sort products"
                   className="h-9 appearance-none border border-navy/15 bg-white pl-3 pr-8 text-[0.68rem] font-semibold text-navy outline-none focus:border-gold"
@@ -361,7 +362,7 @@ export function ShopClient({ products, categories, brands, lockedCategory, locke
 
               {visible < filtered.length && (
                 <div className="mt-10 flex flex-col items-center gap-3">
-                  <button type="button" onClick={() => setVisible((v) => v + PAGE_SIZE)} className="btn btn-outline min-w-[220px]">
+                  <button type="button" data-brand-quick onClick={() => setVisible((v) => v + PAGE_SIZE)} className="btn btn-outline min-w-[220px]">
                     Load more products
                   </button>
                   <p className="text-[0.62rem] font-medium uppercase tracking-[0.12em] text-navy/35">

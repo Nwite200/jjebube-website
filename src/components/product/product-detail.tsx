@@ -139,6 +139,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
           </div>
           <button
             type="button"
+            data-brand-quick
             onClick={() => {
               toggleWish(product.id);
               pushToast({
@@ -207,6 +208,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
             <div className="flex h-12 items-center border border-navy/15 bg-white">
               <button
                 type="button"
+                data-brand-quick
                 onClick={() => setQuantity((q) => Math.max(1, q - 1))}
                 className="flex size-12 items-center justify-center text-navy/60 transition hover:text-navy"
                 aria-label="Decrease quantity"
@@ -216,6 +218,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
               <span className="w-9 text-center text-sm font-bold text-navy">{quantity}</span>
               <button
                 type="button"
+                data-brand-quick
                 onClick={() => setQuantity((q) => Math.min(product.stock || 99, q + 1))}
                 className="flex size-12 items-center justify-center text-navy/60 transition hover:text-navy disabled:opacity-30"
                 disabled={quantity >= product.stock}
@@ -232,7 +235,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
 
         <div className="mt-5 grid gap-2.5 sm:grid-cols-2">
           {canBuy ? (
-            <button type="button" onClick={addToBag} className={cn("btn h-12 w-full", added ? "gold-pulse btn-navy" : "btn-gold")}>
+            <button type="button" data-brand-quick onClick={addToBag} className={cn("btn h-12 w-full", added ? "gold-pulse btn-navy" : "btn-gold")}>
               {added ? (
                 <>
                   <Check className="size-4" strokeWidth={3} /> Added to bag
@@ -249,7 +252,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
             </a>
           )}
           {canBuy && (
-            <button type="button" onClick={buyNow} className="btn btn-outline h-12 w-full">
+            <button type="button" data-brand-quick onClick={buyNow} className="btn btn-outline h-12 w-full">
               Buy now <ArrowUpRight className="size-4" />
             </button>
           )}

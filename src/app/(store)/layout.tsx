@@ -7,7 +7,7 @@ import { StoreProvider } from "@/components/store-provider";
 import { Toaster } from "@/components/toaster";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { BrandIntro } from "@/components/brand/brand-intro";
-import { GlobalClickFeedback } from "@/components/brand/global-click-feedback";
+import { GlobalBrandActivity } from "@/components/brand/global-brand-activity";
 import { PageTransition } from "@/components/brand/page-transition";
 import { getBrands, getCategories, getProducts, getSettings } from "@/lib/db";
 import { toClientProducts } from "@/lib/catalog-view";
@@ -44,7 +44,7 @@ export default async function StoreLayout({ children }: { children: React.ReactN
       <Toaster />
       <WhatsAppFab />
       <MobileTabBar />
-      <GlobalClickFeedback />
+      <GlobalBrandActivity />
       <BrandIntro />
     </StoreProvider>
   );

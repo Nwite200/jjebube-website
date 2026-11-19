@@ -4,8 +4,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { subscribeBrandPulse, type BrandPulseKind } from "@/lib/brand-events";
+import { subscribeBrandActivity } from "@/lib/brand-events";
 import { GoldShimmer } from "./gold-shimmer";
+
+type Visual = "idle" | "loading" | "completing" | "soft" | "full";
 
 export function AnimatedBrandLogo({
   inverted = false,
@@ -16,35 +18,67 @@ export function AnimatedBrandLogo({
   compact?: boolean;
   className?: string;
 }) {
-  const [pulse, setPulse] = useState<{ kind: BrandPulseKind; id: number } | null>(null);
-  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const frame = useRef<number | null>(null);
+  const [visual, setVisual] = useState<Visual>("idle");
+  const visualRef = useRef<Visual>("idle");
+  const timers = useRef<number[]>([]);
 
-  const trigger = useCallback((kind: BrandPulseKind) => {
-    // Remove the class for one frame so every click restarts the animation,
-    // even when the customer taps rapidly.
-    setPulse(null);
-    if (timer.current) clearTimeout(timer.current);
-    if (frame.current) cancelAnimationFrame(frame.current);
-    frame.current = requestAnimationFrame(() => {
-      setPulse({ kind, id: Date.now() + Math.random() });
-      timer.current = setTimeout(() => setPulse(null), kind === "full" ? 700 : 640);
-    });
+  const clearTimers = useCallback(() => {
+    for (const timer of timers.current) window.clearTimeout(timer);
+    timers.current = [];
   }, []);
 
+  const transition = useCallback(
+    (next: Visual, resetAfter?: number) => {
+      if (visualRef.current === next && next === "loading") return;
+      clearTimers();
+      visualRef.current = next;
+      setVisual(next);
+      if (resetAfter) {
+        timers.current.push(
+          window.setTimeout(() => {
+            if (visualRef.current !== next) return;
+            visualRef.current = "idle";
+            setVisual("idle");
+          }, resetAfter),
+        );
+      }
+    },
+    [clearTimers],
+  );
+
   useEffect(() => {
-    const unsubscribe = subscribeBrandPulse(trigger);
+    const unsubscribe = subscribeBrandActivity((activity) => {
+      if (activity === "start") {
+        if (visualRef.current === "loading") return;
+        transition("loading");
+        // Safety net: never leave a ring spinning if a route never settles.
+        timers.current.push(
+          window.setTimeout(() => {
+            if (visualRef.current === "loading") transition("idle");
+          }, 10000),
+        );
+      } else if (activity === "complete") {
+        if (visualRef.current !== "loading") return;
+        transition("completing", 420);
+      } else if (activity === "quick") {
+        if (visualRef.current === "loading") return;
+        transition("soft", 620);
+      }
+    });
     return () => {
       unsubscribe();
-      if (timer.current) clearTimeout(timer.current);
-      if (frame.current) cancelAnimationFrame(frame.current);
+      clearTimers();
     };
-  }, [trigger]);
+  }, [transition, clearTimers]);
+
+  function handleLogoClick() {
+    if (visualRef.current !== "loading") transition("full", 700);
+  }
 
   return (
     <Link
       href="/"
-      onClick={() => trigger("full")}
+      onClick={handleLogoClick}
       data-brand-logo
       aria-label="JJ Ebube Enterprise — home"
       className={cn("group flex items-center gap-3 outline-none", className)}
@@ -52,8 +86,10 @@ export function AnimatedBrandLogo({
       <span
         className={cn(
           "brand-mark relative block size-11 shrink-0 rounded-full md:size-12",
-          pulse?.kind === "full" && "is-clicked",
-          pulse?.kind === "soft" && "is-shimmering",
+          visual === "loading" && "is-loading",
+          visual === "completing" && "is-completing",
+          visual === "soft" && "is-shimmering",
+          visual === "full" && "is-clicked",
         )}
       >
         <span className="brand-mark__ring" aria-hidden="true" />
@@ -67,7 +103,11 @@ export function AnimatedBrandLogo({
             className="object-contain p-[1px] transition-transform duration-500 group-hover:-translate-y-0.5"
           />
         </span>
-        <GoldShimmer key={pulse?.id ?? "idle"} active={pulse !== null} className="z-20" />
+        <GoldShimmer
+          key={`${visual}-${visualRef.current}`}
+          active={visual === "soft" || visual === "full" || visual === "completing"}
+          className="z-20"
+        />
       </span>
 
       {!compact && (

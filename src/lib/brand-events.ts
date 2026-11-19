@@ -1,16 +1,31 @@
-export type BrandPulseKind = "soft" | "full";
+export type BrandActivity = "start" | "complete" | "quick";
 
-const EVENT = "jje:brand-pulse";
+const EVENT = "jje:brand-activity";
 
-export function pulseBrand(kind: BrandPulseKind = "soft") {
+function emit(activity: BrandActivity) {
   if (typeof window === "undefined") return;
-  window.dispatchEvent(new CustomEvent<BrandPulseKind>(EVENT, { detail: kind }));
+  window.dispatchEvent(new CustomEvent<BrandActivity>(EVENT, { detail: activity }));
 }
 
-export function subscribeBrandPulse(handler: (kind: BrandPulseKind) => void) {
+/** Begin the logo transition indicator for a meaningful action. */
+export function startBrandActivity() {
+  emit("start");
+}
+
+/** End the indicator once the action (navigation, submit, filter) settles. */
+export function completeBrandActivity() {
+  emit("complete");
+}
+
+/** A short shimmer for instant actions such as add-to-cart. */
+export function flashBrand() {
+  emit("quick");
+}
+
+export function subscribeBrandActivity(handler: (activity: BrandActivity) => void) {
   if (typeof window === "undefined") return () => undefined;
   const listener = (event: Event) => {
-    handler((event as CustomEvent<BrandPulseKind>).detail ?? "soft");
+    handler((event as CustomEvent<BrandActivity>).detail ?? "quick");
   };
   window.addEventListener(EVENT, listener);
   return () => window.removeEventListener(EVENT, listener);
@@ -22,5 +37,3 @@ export function prefersReducedMotion() {
     window.matchMedia("(prefers-reduced-motion: reduce)").matches
   );
 }
-
-export const INTRO_SESSION_KEY = "jje-brand-intro-seen";

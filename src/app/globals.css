@@ -859,3 +859,55 @@ html[data-brand-intro="active"] .brand-intro {
     opacity: 0;
   }
 }
+
+/* ---------- Transition/loading brand indicator ---------- */
+.brand-mark.is-loading {
+  animation: brand-loading-breathe 1.8s ease-in-out infinite;
+}
+
+.brand-mark.is-loading .brand-mark__ring {
+  opacity: 1;
+  border: 0;
+  inset: -6px;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg 40deg,
+    rgba(217, 172, 66, 0.15) 70deg,
+    #d9ac42 150deg,
+    #f1d58b 175deg,
+    transparent 220deg 360deg
+  );
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 2px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 2px));
+  animation: brand-spin 900ms linear infinite;
+}
+
+.brand-mark.is-completing .brand-mark__ring {
+  opacity: 1;
+  border: 1px solid rgba(217, 172, 66, 0.8);
+  background: none;
+  -webkit-mask: none;
+  mask: none;
+  animation: brand-ring 480ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.brand-mark.is-completing img {
+  animation: brand-glow 480ms ease-out;
+}
+
+@keyframes brand-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes brand-loading-breathe {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(217, 172, 66, 0);
+  }
+  50% {
+    transform: scale(1.025);
+    box-shadow: 0 0 20px rgba(217, 172, 66, 0.24);
+  }
+}

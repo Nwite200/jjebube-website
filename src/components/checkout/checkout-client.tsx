@@ -9,6 +9,7 @@ import { ProductImage } from "@/components/product-image";
 import { useCartStore } from "@/lib/store";
 import { cn, formatNaira, whatsappUrl } from "@/lib/utils";
 import { Money } from "@/components/money";
+import { completeBrandActivity } from "@/lib/brand-events";
 import { CheckoutProgress } from "./checkout-progress";
 import { NIGERIAN_STATES } from "@/lib/nigeria";
 
@@ -129,6 +130,7 @@ export function CheckoutClient({
     setError("");
     if (!confirm) {
       setError("Please confirm that your delivery details are correct.");
+      completeBrandActivity();
       return;
     }
     setSubmitting(true);
@@ -152,6 +154,7 @@ export function CheckoutClient({
       if (!res.ok || !json.ok || !json.orderNumber) {
         setError(json.error || "We couldn't place your order. Please try again.");
         setSubmitting(false);
+        completeBrandActivity();
         return;
       }
       try {
@@ -169,6 +172,7 @@ export function CheckoutClient({
     } catch {
       setError("Something went wrong. Please check your connection and try again.");
       setSubmitting(false);
+      completeBrandActivity();
     }
   }
 

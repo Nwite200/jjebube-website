@@ -63,7 +63,7 @@ export function CartDrawer() {
         aria-label="Close bag"
         className="absolute inset-0 bg-navy/55 backdrop-blur-[2px]"
       />
-      <aside className="absolute inset-y-0 right-0 flex w-full max-w-[440px] flex-col bg-ivory shadow-[-30px_0_80px_-20px_rgba(4,17,39,0.5)]">
+      <aside data-brand-quick className="absolute inset-y-0 right-0 flex w-full max-w-[440px] flex-col bg-ivory shadow-[-30px_0_80px_-20px_rgba(4,17,39,0.5)]">
         <div className="flex items-center justify-between border-b border-navy/10 bg-white px-5 py-5 md:px-6">
           <div className="flex items-center gap-3">
             <ShoppingBag className="size-5 text-gold-deep" strokeWidth={1.6} />
