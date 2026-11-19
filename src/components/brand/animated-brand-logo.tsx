@@ -51,7 +51,7 @@ export function AnimatedBrandLogo({
     >
       <span
         className={cn(
-          "brand-mark relative block size-11 shrink-0 md:size-12",
+          "brand-mark relative block size-11 shrink-0 rounded-full md:size-12",
           pulse?.kind === "full" && "is-clicked",
           pulse?.kind === "soft" && "is-shimmering",
         )}
@@ -67,7 +67,7 @@ export function AnimatedBrandLogo({
             className="object-contain p-[1px] transition-transform duration-500 group-hover:-translate-y-0.5"
           />
         </span>
-        <GoldShimmer key={pulse?.id ?? "idle"} active={pulse?.kind === "full"} className="z-20" />
+        <GoldShimmer key={pulse?.id ?? "idle"} active={pulse !== null} className="z-20" />
       </span>
 
       {!compact && (

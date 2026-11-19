@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import {
   BarChart3,
   Boxes,
@@ -34,8 +35,8 @@ export function AdminNav() {
     <div className="flex h-full flex-col">
       <div className="border-b border-ivory/10 px-6 py-6">
         <Link href="/admin" className="flex items-center gap-3">
-          <span className="flex size-9 items-center justify-center rounded-full border border-gold/40 font-display text-sm font-semibold text-gold">
-            JJ
+          <span className="relative flex size-9 items-center justify-center overflow-hidden rounded-full border border-gold/40 bg-white">
+            <Image src="/brand/logo-mark.png" alt="JJ Ebube" fill sizes="36px" className="object-contain p-0.5" />
           </span>
           <span>
             <span className="block text-[0.72rem] font-bold uppercase tracking-[0.18em] text-ivory">JJ Ebube</span>

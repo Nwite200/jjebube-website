@@ -149,6 +149,13 @@ npm run typecheck  # TypeScript
 
 ---
 
+## Brand motion
+
+- The cinematic logo intro runs once per browser session (skipped instantly for `prefers-reduced-motion`).
+- The header logo gives a short gold ring, glow and shine on every click anywhere on the storefront.
+- Clicking the logo itself plays the stronger signature motion (lift + ring + shine) and returns home.
+- All motion is CSS-driven, GPU-friendly and non-blocking; content is never delayed.
+
 ## Notes
 
 - The admin session is an HMAC-signed, http-only cookie with an 8-hour expiry. Server actions re-check authorisation.

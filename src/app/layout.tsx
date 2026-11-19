@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-NG" className={`${playfair.variable} ${manrope.variable}`}>
+    <html lang="en-NG" suppressHydrationWarning className={`${playfair.variable} ${manrope.variable}`}>
       <body className="min-h-screen bg-ivory font-sans text-charcoal antialiased">
         <script
           dangerouslySetInnerHTML={{
