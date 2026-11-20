@@ -23,7 +23,10 @@ export function ProductCard({
   const pushToast = useUIStore((s) => s.pushToast);
   const [added, setAdded] = useState(false);
 
-  const stock = stockLabel(product.stock);
+  const priceOnRequest = product.price === null;
+  const stock = priceOnRequest
+    ? { label: "Available on request", tone: "request" as const }
+    : stockLabel(product.stock);
   const isOut = product.stock <= 0;
   const canBuy = product.price !== null && !isOut;
   const badge = product.isNew
@@ -122,6 +125,7 @@ export function ProductCard({
               stock.tone === "in" && "text-emerald-700/80",
               stock.tone === "low" && "text-amber-700",
               stock.tone === "out" && "text-red-600/80",
+              stock.tone === "request" && "text-gold-deep/80",
             )}
           >
             <span
@@ -130,6 +134,7 @@ export function ProductCard({
                 stock.tone === "in" && "bg-emerald-600",
                 stock.tone === "low" && "bg-amber-500",
                 stock.tone === "out" && "bg-red-500",
+                stock.tone === "request" && "bg-gold",
               )}
             />
             {stock.label}
@@ -187,7 +192,7 @@ export function ProductCard({
               href={`/product/${product.slug}#enquire`}
               className="mt-3 flex h-10 w-full items-center justify-center gap-2 border border-navy/15 text-[0.62rem] font-extrabold uppercase tracking-[0.12em] text-navy transition-colors duration-300 hover:border-navy hover:bg-navy hover:text-ivory"
             >
-              {isOut ? "Out of stock" : "Request price"} <Plus className="size-3.5" />
+              {priceOnRequest ? "Request price" : "Out of stock"} <Plus className="size-3.5" />
             </Link>
           )}
         </div>

@@ -5,11 +5,11 @@ import { ProductImage } from "@/components/product-image";
 import { formatNaira } from "@/lib/utils";
 
 const HERO_SLUGS = [
-  "lipton-yellow-label-100",
-  "dano-cool-cow-1kg",
-  "kerrygold-butter-750g",
-  "cremora-400g",
-  "onga-beef-100",
+  "lipton-box",
+  "dano-1kg-fullcream",
+  "kerrygold-750g",
+  "cremora",
+  "onga-cube-beef-x100",
 ];
 
 export function Hero({

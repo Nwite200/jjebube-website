@@ -104,6 +104,15 @@ The catalogue is seeded with the products featured in the brief (Dano, Lipton, K
 
 Add or adjust the rest of your inventory in Admin → Products. If your full inventory sheet exists, it can be imported into `data/catalog.json` or a database.
 
+### Real catalogue import
+
+The storefront catalogue was rebuilt from the company's `products_import_filled (1).xlsx` workbook: **77 products** across milk/creamers, evaporated milk, tea/coffee, cocoa, sugar, seasoning, food mixes, noodles, glucose, tomato/sauces and other grocery.
+
+- The template's purchase/selling values (100/120) are import placeholders and were **not** published. Only verified prices from the original brief remain: Dano 1kg, Lipton Box, Kerrygold 750g, Top Tea Ginger and Onga Beef x100. Everything else displays **Price on request**.
+- Opening stock was blank in the workbook, so only the five priced lines carry a starter quantity for online checkout. Update real prices and stock in Admin → Products.
+- Product images are sourced from public brand/retailer listings into `public/products/real/`; provenance is recorded in `public/products/real/SOURCES.json`. Where no exact packshot exists, the storefront shows a clean branded placeholder rather than fabricated packaging.
+- Category and brand assignments are editable in Admin → Catalogue.
+
 ### Product images
 Product images are sourced into `public/products/<slug>.webp`, with provenance recorded in `public/products/SOURCES.json`. If an image is missing, the UI renders a deliberate branded placeholder rather than fabricated packaging. Replace images from Admin → Products at any time.
 

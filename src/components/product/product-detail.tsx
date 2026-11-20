@@ -30,7 +30,10 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
   const saved = useWishlistStore((s) => s.ids.includes(product.id));
   const toggleWish = useWishlistStore((s) => s.toggle);
   const pushToast = useUIStore((s) => s.pushToast);
-  const stock = stockLabel(product.stock);
+  const priceOnRequest = product.price === null;
+  const stock = priceOnRequest
+    ? { label: "Available on request", tone: "request" as const }
+    : stockLabel(product.stock);
   const images = [product.image, ...product.gallery].filter(Boolean);
   const isOut = product.stock <= 0;
   const canBuy = product.price !== null && !isOut;
@@ -166,9 +169,10 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
               stock.tone === "in" && "text-emerald-700",
               stock.tone === "low" && "text-amber-700",
               stock.tone === "out" && "text-red-600",
+              stock.tone === "request" && "text-gold-deep",
             )}
           >
-            <span className={cn("size-1.5 rounded-full", stock.tone === "in" && "bg-emerald-600", stock.tone === "low" && "bg-amber-500", stock.tone === "out" && "bg-red-500")} />
+            <span className={cn("size-1.5 rounded-full", stock.tone === "in" && "bg-emerald-600", stock.tone === "low" && "bg-amber-500", stock.tone === "out" && "bg-red-500", stock.tone === "request" && "bg-gold")} />
             {stock.label}
           </span>
           <span className="h-3 w-px bg-navy/15" />
@@ -202,6 +206,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
           </p>
         )}
 
+        {!priceOnRequest && (
         <div className="mt-6">
           <p className="field-label">Quantity</p>
           <div className="flex flex-wrap items-center gap-3">
@@ -228,10 +233,15 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
               </button>
             </div>
             <p className="text-[0.68rem] text-navy/40">
-              {product.stock > 0 ? `${product.stock} ${product.unit}${product.stock === 1 ? "" : "s"} available` : "Currently out of stock"}
+              {priceOnRequest
+                ? "Price and availability confirmed with our team."
+                : product.stock > 0
+                  ? `${product.stock} ${product.unit}${product.stock === 1 ? "" : "s"} available`
+                  : "Currently out of stock"}
             </p>
           </div>
         </div>
+        )}
 
         <div className="mt-5 grid gap-2.5 sm:grid-cols-2">
           {canBuy ? (
@@ -248,7 +258,7 @@ export function ProductDetail({ product, whatsapp }: { product: ClientProduct; w
             </button>
           ) : (
             <a href="#enquire" className="btn btn-navy h-12 w-full">
-              {isOut ? "Ask about restock" : "Request price"} <ArrowUpRight className="size-4" />
+              {priceOnRequest ? "Request price" : "Ask about restock"} <ArrowUpRight className="size-4" />
             </a>
           )}
           {canBuy && (

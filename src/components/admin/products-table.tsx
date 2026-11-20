@@ -106,9 +106,13 @@ export function ProductsTable({
                     {p.price !== null ? formatNaira(p.price) : <span className="text-[0.62rem] italic text-navy/35">On request</span>}
                   </td>
                   <td className="px-3 py-3">
-                    <span className={s.tone === "out" ? "font-semibold text-red-600" : s.tone === "low" ? "font-semibold text-amber-700" : "text-navy/55"}>
-                      {p.stock}
-                    </span>
+                    {p.price === null && p.stock === 0 ? (
+                      <span className="text-[0.62rem] italic text-navy/35">On request</span>
+                    ) : (
+                      <span className={s.tone === "out" ? "font-semibold text-red-600" : s.tone === "low" ? "font-semibold text-amber-700" : "text-navy/55"}>
+                        {p.stock}
+                      </span>
+                    )}
                   </td>
                   <td className="px-3 py-3">
                     <form action={toggleFeaturedAction}>

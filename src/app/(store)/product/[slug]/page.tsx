@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const brand = brands.find((b) => b.slug === product.brandSlug);
   return {
     title: `${product.name} — ${product.packSize}`,
-    description: `${product.description} Buy ${product.name} ${product.packSize} from JJ Ebube Enterprise${brand ? `, official stockist of ${brand.name}` : ""}.`,
+    description: `${product.description} Buy ${product.name} ${product.packSize} from JJ Ebube Enterprise.`,
     alternates: { canonical: `/product/${product.slug}` },
     openGraph: {
       title: `${product.name} — ${product.packSize}`,

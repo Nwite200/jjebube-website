@@ -32,30 +32,9 @@ export default async function HomePage() {
   const counts: Record<string, number> = {};
   for (const p of products) counts[p.brandSlug] = (counts[p.brandSlug] ?? 0) + 1;
 
-  const homepageBrands = [
-    "promasidor",
-    "multipro",
-    "cadbury",
-    "blume",
-    "johnvent",
-    "aava",
-    "dogan",
-    "tinki",
-    "sarah",
-    "valency-agro",
-    "apple-pear",
-    "primer-food",
-    "evans",
-    "oriental-food",
-    "good-brand",
-    "dano",
-    "lipton",
-    "nestle",
-    "kerrygold",
-    "onga",
-  ]
-    .map((slug) => brands.find((b) => b.slug === slug))
-    .filter((b): b is (typeof brands)[number] => Boolean(b));
+  const homepageBrands = brands
+    .filter((b) => (counts[b.slug] ?? 0) > 0)
+    .slice(0, 20);
 
   const promoProducts = clientProducts.filter((p) => p.price !== null).slice(0, 3);
 
