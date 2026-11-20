@@ -138,7 +138,7 @@ Bank transfer, pay on delivery and WhatsApp ordering are available without Payst
 
 ## WhatsApp
 
-Business number: **07062129563** (`+2347062129563`)
+Business numbers: **07031633358** (`+2347031633358`) or **09038581150** (`+2349038581150`)
 
 - Floating WhatsApp button
 - Product enquiry with name, pack size and quantity

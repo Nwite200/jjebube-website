@@ -208,6 +208,14 @@ export default async function WholesalePage() {
                   >
                     <Phone className="size-4 text-gold" /> {settings.phone}
                   </a>
+                  {settings.phoneAlt && (
+                    <a
+                      href={`tel:${settings.phoneAlt}`}
+                      className="flex h-11 items-center justify-center gap-2 border border-ivory/20 text-[0.65rem] font-bold uppercase tracking-[0.12em] text-ivory transition hover:border-gold"
+                    >
+                      <Phone className="size-4 text-gold" /> {settings.phoneAlt}
+                    </a>
+                  )}
                 </div>
                 <p className="mt-4 flex items-center gap-2 text-[0.62rem] text-ivory/40">
                   <Clock className="size-3.5 text-gold/80" /> {settings.hours}

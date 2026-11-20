@@ -167,8 +167,9 @@ export async function saveHomeContent(content: HomeContent) {
 const defaultSettings: StoreSettings = {
   storeName: "JJ Ebube Enterprise",
   tagline: "Quality Products. Better Life.",
-  phone: "07062129563",
-  whatsapp: "+2347062129563",
+  phone: "07031633358",
+  phoneAlt: "09038581150",
+  whatsapp: "+2347031633358",
   email: "",
   address: "248 Obodoukwu Rd, Onitsha",
   branchAddress: "No A26/2 Kingsway Line, Ogbaru Main Market, Onitsha",

@@ -9,7 +9,7 @@ import { whatsappUrl } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact JJ Ebube Enterprise for product enquiries, order support, delivery questions and wholesale quotes. Call or WhatsApp 0706 212 9563.",
+    "Contact JJ Ebube Enterprise for product enquiries, order support, delivery questions and wholesale quotes. Call or WhatsApp 0703 163 3358 or 0903 858 1150.",
   alternates: { canonical: "/contact" },
 };
 
@@ -32,7 +32,7 @@ export default async function ContactPage() {
     {
       "@type": "Store",
       name: "JJ Ebube Enterprise — Ogbaru Branch",
-      telephone: `+234${settings.phone.replace(/\D/g, "").replace(/^0/, "")}`,
+      telephone: `+234${(settings.phoneAlt ?? settings.phone).replace(/\D/g, "").replace(/^0/, "")}`,
       address: {
         "@type": "PostalAddress",
         streetAddress: settings.branchAddress,
@@ -54,7 +54,7 @@ export default async function ContactPage() {
         title="Talk to JJ Ebube"
         description="Questions about a product, your order or a bulk enquiry? Call, message us on WhatsApp, or send a note below."
         crumbs={[{ label: "Contact" }]}
-        note={`Call or WhatsApp ${settings.phone}`}
+        note={`Call or WhatsApp ${settings.phone}${settings.phoneAlt ? ` or ${settings.phoneAlt}` : ""}`}
       />
 
       <div className="container-edge py-10 md:py-14">
@@ -62,20 +62,24 @@ export default async function ContactPage() {
           <ContactForm whatsapp={settings.whatsapp} />
 
           <aside className="space-y-4">
-            <a
-              href={`tel:${settings.phone}`}
-              className="group flex items-start gap-4 border border-navy/10 bg-white p-5 transition hover:border-gold/50"
-            >
+            <div className="group flex items-start gap-4 border border-navy/10 bg-white p-5 transition hover:border-gold/50">
               <span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-gold/35 bg-ivory">
                 <Phone className="size-4 text-gold-deep" strokeWidth={1.6} />
               </span>
               <span className="flex-1">
                 <span className="block text-[0.55rem] font-bold uppercase tracking-[0.14em] text-navy/35">Call us</span>
-                <span className="mt-1 block text-[0.88rem] font-semibold text-navy">{settings.phone}</span>
+                <a href={`tel:${settings.phone}`} className="mt-1 block text-[0.88rem] font-semibold text-navy hover:text-gold-deep">
+                  {settings.phone}
+                </a>
+                {settings.phoneAlt && (
+                  <a href={`tel:${settings.phoneAlt}`} className="block text-[0.88rem] font-semibold text-navy hover:text-gold-deep">
+                    {settings.phoneAlt}
+                  </a>
+                )}
                 <span className="mt-0.5 block text-[0.65rem] text-navy/40">Speak to our team directly</span>
               </span>
               <ArrowUpRight className="size-4 text-navy/20 transition group-hover:text-gold-deep" />
-            </a>
+            </div>
 
             <a
               href={whatsappUrl(

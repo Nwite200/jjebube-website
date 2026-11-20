@@ -246,7 +246,7 @@ export default async function OrderSuccessPage({
                 href={`tel:${settings.phone}`}
                 className="mt-2 flex h-11 w-full items-center justify-center gap-2 border border-navy/15 text-[0.65rem] font-bold uppercase tracking-[0.12em] text-navy transition hover:border-navy"
               >
-                Call {settings.phone}
+                Call {settings.phone}{settings.phoneAlt ? ` or ${settings.phoneAlt}` : ""}
               </a>
             </div>
 

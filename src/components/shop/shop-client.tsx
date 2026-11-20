@@ -343,7 +343,7 @@ export function ShopClient({ products, categories, brands, lockedCategory, locke
                   Clear filters
                 </button>
                 <a
-                  href="https://wa.me/2347062129563?text=Hello%20JJ%20Ebube%20Enterprise%2C%20please%20help%20me%20find%20a%20product."
+                  href="https://wa.me/2347031633358?text=Hello%20JJ%20Ebube%20Enterprise%2C%20please%20help%20me%20find%20a%20product."
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-outline h-11"

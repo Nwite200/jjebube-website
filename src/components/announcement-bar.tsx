@@ -45,13 +45,21 @@ export async function AnnouncementBar() {
           </div>
         </div>
 
-        <a
-          href={`tel:${settings.phone}`}
-          className="hidden shrink-0 items-center gap-2 text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-ivory/70 transition-colors hover:text-gold-soft md:flex"
-        >
+        <span className="hidden shrink-0 items-center gap-2 text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-ivory/70 md:flex">
           <span className="size-1 rounded-full bg-gold" />
-          Need help? {settings.phone}
-        </a>
+          Need help?{" "}
+          <a href={`tel:${settings.phone}`} className="transition-colors hover:text-gold-soft">
+            {settings.phone}
+          </a>
+          {settings.phoneAlt && (
+            <>
+              <span className="text-ivory/35">or</span>
+              <a href={`tel:${settings.phoneAlt}`} className="transition-colors hover:text-gold-soft">
+                {settings.phoneAlt}
+              </a>
+            </>
+          )}
+        </span>
       </div>
     </div>
   );

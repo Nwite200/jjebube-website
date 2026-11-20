@@ -61,6 +61,7 @@ export type StoreSettings = {
   storeName: string;
   tagline: string;
   phone: string;
+  phoneAlt?: string;
   whatsapp: string;
   email: string;
   address: string;

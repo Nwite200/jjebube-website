@@ -261,6 +261,7 @@ export async function saveSettingsAction(formData: FormData) {
     storeName: str(formData, "storeName", settings.storeName),
     tagline: str(formData, "tagline", settings.tagline),
     phone: str(formData, "phone", settings.phone),
+    phoneAlt: str(formData, "phoneAlt", settings.phoneAlt),
     whatsapp: str(formData, "whatsapp", settings.whatsapp),
     email: str(formData, "email"),
     address: str(formData, "address", settings.address),

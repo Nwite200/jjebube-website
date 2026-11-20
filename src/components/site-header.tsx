@@ -285,13 +285,20 @@ export function SiteHeader({ categories }: { categories: { slug: string; name: s
               </div>
             </div>
 
-            <a
-              href={`tel:${config.phone}`}
-              className="hidden h-[52px] items-center gap-2.5 text-[0.72rem] font-semibold text-navy/75 transition-colors hover:text-gold-deep xl:flex"
-            >
+            <span className="hidden h-[52px] items-center gap-2.5 text-[0.72rem] font-semibold text-navy/75 xl:flex">
               <Phone className="size-4 text-gold-deep" strokeWidth={1.7} />
-              {config.phone}
-            </a>
+              <a href={`tel:${config.phone}`} className="transition-colors hover:text-gold-deep">
+                {config.phone}
+              </a>
+              {config.phoneAlt && (
+                <>
+                  <span className="text-navy/30">or</span>
+                  <a href={`tel:${config.phoneAlt}`} className="transition-colors hover:text-gold-deep">
+                    {config.phoneAlt}
+                  </a>
+                </>
+              )}
+            </span>
           </nav>
         </div>
       </header>
@@ -358,6 +365,11 @@ export function SiteHeader({ categories }: { categories: { slug: string; name: s
               <a href={`tel:${config.phone}`} className="flex items-center gap-3 py-2 text-sm font-semibold text-navy">
                 <Phone className="size-4 text-gold-deep" /> {config.phone}
               </a>
+              {config.phoneAlt && (
+                <a href={`tel:${config.phoneAlt}`} className="flex items-center gap-3 py-2 text-sm font-semibold text-navy">
+                  <Phone className="size-4 text-gold-deep" /> {config.phoneAlt}
+                </a>
+              )}
               <a
                 href={`https://wa.me/${config.whatsapp.replace(/\D/g, "").replace(/^0/, "234")}`}
                 target="_blank"

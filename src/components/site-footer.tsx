@@ -35,6 +35,15 @@ export async function SiteFooter() {
                 <Phone className="size-4 text-gold" strokeWidth={1.7} />
                 {settings.phone}
               </a>
+              {settings.phoneAlt && (
+                <a
+                  href={`tel:${settings.phoneAlt}`}
+                  className="flex items-center gap-3 text-[0.8rem] text-ivory/70 transition hover:text-gold-soft"
+                >
+                  <Phone className="size-4 text-gold" strokeWidth={1.7} />
+                  {settings.phoneAlt}
+                </a>
+              )}
               <a
                 href={whatsappUrl(settings.whatsapp)}
                 target="_blank"

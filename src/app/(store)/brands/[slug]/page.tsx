@@ -75,7 +75,7 @@ export default async function BrandPage({ params }: Params) {
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <a
                 href={whatsappUrl(
-                  "+2347062129563",
+                  "+2347031633358",
                   `Hello JJ Ebube Enterprise, I'd like to ask about ${brand.name} products and availability.`,
                 )}
                 target="_blank"

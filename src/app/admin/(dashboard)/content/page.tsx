@@ -28,7 +28,8 @@ export default async function AdminContentPage({
               <AdminField label="Tagline" name="tagline" defaultValue={settings.tagline} />
               <AdminField label="Announcement bar" name="announcement" defaultValue={settings.announcement} hint="Use • to separate messages" />
               <AdminField label="Phone number" name="phone" defaultValue={settings.phone} />
-              <AdminField label="WhatsApp number" name="whatsapp" defaultValue={settings.whatsapp} hint="International format, e.g. +2347062129563" />
+              <AdminField label="Alternate phone number" name="phoneAlt" defaultValue={settings.phoneAlt ?? ""} hint="Shown as a second customer care line" />
+              <AdminField label="WhatsApp number" name="whatsapp" defaultValue={settings.whatsapp} hint="International format, e.g. +2347031633358" />
               <AdminField label="Email (optional)" name="email" type="email" defaultValue={settings.email} />
               <AdminField label="Opening hours" name="hours" defaultValue={settings.hours} />
               <AdminField label="Free delivery threshold (₦)" name="freeShippingThreshold" type="number" defaultValue={settings.freeShippingThreshold} />
@@ -103,6 +104,7 @@ export default async function AdminContentPage({
               <input type="hidden" name="tagline" value={settings.tagline} />
               <input type="hidden" name="announcement" value={settings.announcement} />
               <input type="hidden" name="phone" value={settings.phone} />
+              <input type="hidden" name="phoneAlt" value={settings.phoneAlt ?? ""} />
               <input type="hidden" name="whatsapp" value={settings.whatsapp} />
               <input type="hidden" name="email" value={settings.email} />
               <input type="hidden" name="hours" value={settings.hours} />

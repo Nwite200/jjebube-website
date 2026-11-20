@@ -212,6 +212,11 @@ export default async function AboutPage() {
             <a href={`tel:${settings.phone}`} className="btn btn-outline-light">
               {settings.phone}
             </a>
+            {settings.phoneAlt && (
+              <a href={`tel:${settings.phoneAlt}`} className="btn btn-outline-light">
+                {settings.phoneAlt}
+              </a>
+            )}
           </div>
         </div>
       </section>

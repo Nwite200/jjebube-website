@@ -29,6 +29,7 @@ export default async function StoreLayout({ children }: { children: React.ReactN
       config={{
         whatsapp: settings.whatsapp,
         phone: settings.phone,
+        phoneAlt: settings.phoneAlt,
         freeShippingThreshold: settings.freeShippingThreshold,
         deliveryZones: settings.deliveryZones,
       }}

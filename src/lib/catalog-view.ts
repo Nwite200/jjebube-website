@@ -56,6 +56,7 @@ export function toClientProducts(products: Product[], brands: Brand[]): ClientPr
 export type ClientConfig = {
   whatsapp: string;
   phone: string;
+  phoneAlt?: string;
   freeShippingThreshold: number;
   deliveryZones: DeliveryZone[];
 };

@@ -208,7 +208,7 @@ export function OrderLookup() {
             Message our team with your order number and we&apos;ll help with delivery, payment or changes.
           </p>
           <a
-            href="https://wa.me/2347062129563?text=Hello%20JJ%20Ebube%20Enterprise%2C%20I%20need%20help%20with%20an%20order."
+            href="https://wa.me/2347031633358?text=Hello%20JJ%20Ebube%20Enterprise%2C%20I%20need%20help%20with%20an%20order."
             target="_blank"
             rel="noreferrer"
             className="mt-3 inline-flex items-center gap-1.5 text-[0.62rem] font-bold uppercase tracking-[0.1em] text-gold-deep underline underline-offset-2"
