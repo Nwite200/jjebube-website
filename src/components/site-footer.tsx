@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Clock, LockKeyhole, MapPin, MessageCircle, Phone, ShieldCheck } from "lucide-react";
 import { Logo } from "./logo";
 import { NewsletterForm } from "./newsletter-form";
+import { InstallAppButton } from "./pwa/install-app-button";
 import { getCategories, getSettings } from "@/lib/db";
 import { whatsappUrl } from "@/lib/utils";
 
@@ -184,6 +185,7 @@ export async function SiteFooter() {
             >
               <LockKeyhole className="size-3" /> Staff POS
             </a>
+            <InstallAppButton />
           </div>
           <p className="font-display text-sm italic text-gold-soft/80">
             Your Trusted Store for Quality Products.

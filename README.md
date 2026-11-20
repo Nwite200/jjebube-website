@@ -171,6 +171,18 @@ npm run typecheck  # TypeScript
 
 The footer includes a discreet **Staff / POS Login** link to the point-of-sale subdomain: https://pos.jjebubeenterprise.com.ng/
 
+## Installable app (PWA)
+
+The storefront can be installed to the home screen or desktop from any modern browser.
+
+- Manifest: `src/app/manifest.ts` → `/manifest.webmanifest`
+- Service worker: `public/sw.js` (network-first pages, cached static assets, offline fallback)
+- Offline page: `/offline`
+- App icons: `public/icons/` (192px, 512px, maskable and Apple touch icons)
+- Install entry point: **Install app** in the footer, plus the browser's native install prompt
+
+Admin, API and checkout routes are intentionally excluded from service-worker caching.
+
 ## cPanel deployment
 
 This project is deployed on the Namecheap cPanel account using the CloudLinux Node.js Selector (Node 22) and Passenger.
