@@ -6,7 +6,7 @@
       "name": "Milk & Creamers",
       "tagline": "Creamy everyday nourishment",
       "description": "Powdered milk, creamers and butter for tea, coffee, cooking and family breakfasts.",
-      "image": "/products/dano-cool-cow-1kg.webp",
+      "image": "/products/real/dano-1kg-fullcream.webp",
       "order": 1
     },
     {
@@ -15,7 +15,7 @@
       "name": "Tea & Coffee",
       "tagline": "Slow mornings, better cups",
       "description": "Trusted tea bags and coffee for the home, the office and the breakfast table.",
-      "image": "/products/lipton-yellow-label-100.webp",
+      "image": "/products/real/lipton-box.webp",
       "order": 2
     },
     {
@@ -24,7 +24,7 @@
       "name": "Chocolate & Cocoa",
       "tagline": "Comfort in every cup",
       "description": "Malted drinks and cocoa favourites that bring warmth to the whole family.",
-      "image": "/products/milo-refill-400g.webp",
+      "image": "/products/real/twisco-400g.webp",
       "order": 3
     },
     {
@@ -33,7 +33,7 @@
       "name": "Sugar & Sweeteners",
       "tagline": "The everyday staple",
       "description": "Granulated sugar, cubes and sweeteners in home and wholesale quantities.",
-      "image": "/products/dogan-sugar-500g.webp",
+      "image": "/products/real/dogan-sugar.webp",
       "order": 4
     },
     {
@@ -42,7 +42,7 @@
       "name": "Seasonings",
       "tagline": "The heart of Nigerian cooking",
       "description": "Bouillon cubes and seasoning essentials from names kitchens trust.",
-      "image": "/products/onga-beef-100.webp",
+      "image": "/products/real/onga-cube-beef-x100.webp",
       "order": 5
     },
     {
@@ -51,7 +51,7 @@
       "name": "Food Mixes",
       "tagline": "Simple, satisfying meals",
       "description": "Garri mixes and meal-time staples for quick, filling family food.",
-      "image": "/products/semovita-1kg.webp",
+      "image": "/products/real/garri-mix-100g.webp",
       "order": 6
     },
     {
@@ -60,7 +60,7 @@
       "name": "Noodles & Quick Meals",
       "tagline": "Ready when you are",
       "description": "Instant noodles in single packs and convenient family packs.",
-      "image": "/products/indomie-chicken-40pack.webp",
+      "image": "/products/real/supreme-noodles-70g.webp",
       "order": 7
     },
     {
@@ -69,7 +69,7 @@
       "name": "Glucose & Nutrition",
       "tagline": "Energy for the everyday",
       "description": "Glucose and nutrition products for growing families.",
-      "image": "/products/glucose-d-400g.webp",
+      "image": "/products/real/glucose-big.webp",
       "order": 8
     },
     {
@@ -78,7 +78,7 @@
       "name": "Evaporated Milk",
       "tagline": "Rich, smooth, versatile",
       "description": "Classic tinned milk for tea, pap, baking and everyday cooking.",
-      "image": "/products/peak-evaporated-milk-170g.webp",
+      "image": "/products/real/dano-evap-x24.webp",
       "order": 9
     },
     {
@@ -87,7 +87,7 @@
       "name": "Tomato & Sauces",
       "tagline": "For stews, soups and sauces",
       "description": "Tomato paste, pepper and sauce essentials for everyday Nigerian cooking.",
-      "image": "/products/gino-tomato-paste-70g.webp",
+      "image": "/products/real/sonia-tin-210g.webp",
       "order": 10
     },
     {
@@ -96,7 +96,7 @@
       "name": "Other Grocery Essentials",
       "tagline": "The rest of the list",
       "description": "Confectionery and other pantry essentials, all in one place.",
-      "image": "/products/titus-sardines-125g.webp",
+      "image": "/products/real/tom-tom.webp",
       "order": 11
     },
     {
@@ -470,7 +470,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/myco-tea.webp",
+      "image": "",
       "gallery": [],
       "description": "Myco Tea from Johnvent. A familiar tea or coffee favourite for the home, office and hospitality.",
       "details": [
@@ -613,7 +613,7 @@
       "name": "Dogan Sugar",
       "brandSlug": "dogan",
       "categorySlug": "sugar-sweeteners",
-      "packSize": "Each",
+      "packSize": "500g",
       "unit": "pack",
       "sku": "JJE-006",
       "price": null,
@@ -624,7 +624,7 @@
       "gallery": [],
       "description": "Dogan Sugar from Dogan. Everyday sweetener for tea, baking and food service.",
       "details": [
-        "Pack: Each",
+        "Pack: 500g",
         "Brand: Dogan",
         "Ask our team for current price and availability"
       ],
@@ -642,8 +642,8 @@
       "name": "Tinki Sugar",
       "brandSlug": "tinki",
       "categorySlug": "sugar-sweeteners",
-      "packSize": "Tin",
-      "unit": "tin",
+      "packSize": "Each",
+      "unit": "pack",
       "sku": "JJE-007",
       "price": null,
       "compareAtPrice": null,
@@ -653,7 +653,7 @@
       "gallery": [],
       "description": "Tinki Sugar from Tinki. Everyday sweetener for tea, baking and food service.",
       "details": [
-        "Pack: Tin",
+        "Pack: Each",
         "Brand: Tinki",
         "Ask our team for current price and availability"
       ],
@@ -701,7 +701,7 @@
       "name": "Lipton Box",
       "brandSlug": "aava",
       "categorySlug": "tea-coffee",
-      "packSize": "Box",
+      "packSize": "100 bags",
       "unit": "box",
       "sku": "JJE-009",
       "price": 4200,
@@ -712,7 +712,7 @@
       "gallery": [],
       "description": "Lipton Box from AAVA. A familiar tea or coffee favourite for the home, office and hospitality.",
       "details": [
-        "Pack: Box",
+        "Pack: 100 bags",
         "Brand: AAVA",
         "Ask our team for current price and availability"
       ],
@@ -1401,7 +1401,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/miksi-choco-17g.webp",
+      "image": "",
       "gallery": [],
       "description": "Miksi Choco 17g from Promasidor. Rich cocoa and malt refreshment for breakfast and everyday breaks.",
       "details": [
@@ -1694,8 +1694,8 @@
       "name": "Top Tea Ginger",
       "brandSlug": "promasidor",
       "categorySlug": "tea-coffee",
-      "packSize": "Each",
-      "unit": "pack",
+      "packSize": "25 bags",
+      "unit": "box",
       "sku": "JJE-042",
       "price": 1500,
       "compareAtPrice": null,
@@ -1705,7 +1705,7 @@
       "gallery": [],
       "description": "Top Tea Ginger from Promasidor. A familiar tea or coffee favourite for the home, office and hospitality.",
       "details": [
-        "Pack: Each",
+        "Pack: 25 bags",
         "Brand: Promasidor",
         "Ask our team for current price and availability"
       ],
@@ -1725,8 +1725,8 @@
       "name": "Top Tea Lemon",
       "brandSlug": "promasidor",
       "categorySlug": "tea-coffee",
-      "packSize": "Each",
-      "unit": "pack",
+      "packSize": "25 bags",
+      "unit": "box",
       "sku": "JJE-043",
       "price": null,
       "compareAtPrice": null,
@@ -1736,7 +1736,7 @@
       "gallery": [],
       "description": "Top Tea Lemon from Promasidor. A familiar tea or coffee favourite for the home, office and hospitality.",
       "details": [
-        "Pack: Each",
+        "Pack: 25 bags",
         "Brand: Promasidor",
         "Ask our team for current price and availability"
       ],
@@ -2001,7 +2001,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/onga-cube-beef-x2500.webp",
+      "image": "",
       "gallery": [],
       "description": "Onga Cube Beef x2500 from Promasidor. Seasoning for stews, soups, rice and everyday Nigerian cooking.",
       "details": [
@@ -2113,8 +2113,8 @@
       "name": "Garri Mix 100g",
       "brandSlug": "blume",
       "categorySlug": "food-mixes",
-      "packSize": "100 pack",
-      "unit": "carton",
+      "packSize": "100g",
+      "unit": "pack",
       "sku": "JJE-056",
       "price": null,
       "compareAtPrice": null,
@@ -2124,7 +2124,7 @@
       "gallery": [],
       "description": "Garri Mix 100g from Blume. A convenient meal-time staple for quick, filling family meals.",
       "details": [
-        "Pack: 100 pack",
+        "Pack: 100g",
         "Brand: Blume",
         "Ask our team for current price and availability"
       ],
@@ -2142,8 +2142,8 @@
       "name": "Garri Mix 50g",
       "brandSlug": "blume",
       "categorySlug": "food-mixes",
-      "packSize": "50 pack",
-      "unit": "carton",
+      "packSize": "50g",
+      "unit": "pack",
       "sku": "JJE-057",
       "price": null,
       "compareAtPrice": null,
@@ -2153,7 +2153,7 @@
       "gallery": [],
       "description": "Garri Mix 50g from Blume. A convenient meal-time staple for quick, filling family meals.",
       "details": [
-        "Pack: 50 pack",
+        "Pack: 50g",
         "Brand: Blume",
         "Ask our team for current price and availability"
       ],
@@ -2171,8 +2171,8 @@
       "name": "Sonia Mix 55g",
       "brandSlug": "blume",
       "categorySlug": "tomato-sauces",
-      "packSize": "55 pack",
-      "unit": "carton",
+      "packSize": "55g",
+      "unit": "pack",
       "sku": "JJE-058",
       "price": null,
       "compareAtPrice": null,
@@ -2182,7 +2182,7 @@
       "gallery": [],
       "description": "Sonia Mix 55g from Blume. Tomato paste, pepper and sauce essentials for stews and soups.",
       "details": [
-        "Pack: 55 pack",
+        "Pack: 55g",
         "Brand: Blume",
         "Ask our team for current price and availability"
       ],
@@ -2528,7 +2528,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/glucose-pkt.webp",
+      "image": "",
       "gallery": [],
       "description": "Glucose PKT from Evans. Glucose energy supplement for everyday nutrition.",
       "details": [
@@ -2557,7 +2557,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/glucose-small.webp",
+      "image": "",
       "gallery": [],
       "description": "Glucose Small from Evans. Glucose energy supplement for everyday nutrition.",
       "details": [
@@ -2675,7 +2675,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/ogoody-choco.webp",
+      "image": "",
       "gallery": [],
       "description": "Ogoody Choco from Good Brand. Rich cocoa and malt refreshment for breakfast and everyday breaks.",
       "details": [
@@ -2705,7 +2705,7 @@
       "compareAtPrice": null,
       "wholesalePrice": null,
       "stock": 0,
-      "image": "/products/real/ogoody-creamer.webp",
+      "image": "",
       "gallery": [],
       "description": "Ogoody Creamer from Good Brand. Milk and creamer essential for tea, coffee, pap, baking and everyday family breakfasts.",
       "details": [

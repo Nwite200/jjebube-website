@@ -110,7 +110,8 @@ The storefront catalogue was rebuilt from the company's `products_import_filled 
 
 - The template's purchase/selling values (100/120) are import placeholders and were **not** published. Only verified prices from the original brief remain: Dano 1kg, Lipton Box, Kerrygold 750g, Top Tea Ginger and Onga Beef x100. Everything else displays **Price on request**.
 - Opening stock was blank in the workbook, so only the five priced lines carry a starter quantity for online checkout. Update real prices and stock in Admin → Products.
-- Product images are sourced from public brand/retailer listings into `public/products/real/`; provenance is recorded in `public/products/real/SOURCES.json`. Where no exact packshot exists, the storefront shows a clean branded placeholder rather than fabricated packaging.
+- Product images: 70 of the 77 lines now use company POS media or verified public brand/retailer images in `public/products/real/`; provenance is in `public/products/real/SOURCES.json`. Seven lines still need a verified supplier photo: Myco Tea, Miksi Choco 17g, Onga Cube Beef x2500, Glucose PKT, Glucose Small, Ogoody Choco and Ogoody Creamer. They show a clean branded placeholder and can be updated from Admin → Products (upload or image URL).
+- Some verified images are the closest available pack variants (for example Dano 1kg uses a 900g tin, Kerrygold 750g/320g use a 227g block, Twisco 20g uses a 22g pack, Miksi 320g uses a 330g pack). Each substitution is recorded with a pack note in `SOURCES.json`.
 - Category and brand assignments are editable in Admin → Catalogue.
 
 ### Product images

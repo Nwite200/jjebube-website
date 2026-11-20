@@ -24,7 +24,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     openGraph: {
       title: `${product.name} — ${product.packSize}`,
       description: product.description,
-      images: [{ url: product.image, width: 800, height: 800, alt: product.name }],
+      ...(product.image
+        ? { images: [{ url: product.image, width: 800, height: 800, alt: product.name }] }
+        : {}),
       type: "website",
     },
   };
@@ -61,7 +63,7 @@ export default async function ProductPage({ params }: Params) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
-    image: [`${site}${product.image}`],
+    ...(product.image ? { image: [`${site}${product.image}`] } : {}),
     description: product.description,
     sku: product.sku,
     brand: { "@type": "Brand", name: brand?.name ?? product.brandSlug },

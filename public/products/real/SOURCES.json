@@ -1,0 +1,575 @@
+{
+  "project": "JJ Ebube Enterprise product imagery",
+  "products": {
+    "twisco-20g": {
+      "file": "/products/real/twisco-20g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790452283_twisco.png",
+      "exact_size_match": false,
+      "pack_note": "POS image shows 22g; listing is 20g",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "twisco-400g": {
+      "file": "/products/real/twisco-400g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790452415_twisco 500g.png",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "kremela-250g": {
+      "file": "/products/real/kremela-250g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790453149_250g kremela.webp",
+      "exact_size_match": true,
+      "pack_note": "POS name 25g; image is 250g",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "top-tea-box": {
+      "file": "/products/real/top-tea-box.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790777798_9F3EE9A7-A08F-4B39-9775-F1711A83DA55-scaled.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "top-tea-ginger": {
+      "file": "/products/real/top-tea-ginger.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790778054_images-9.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "top-tea-lemon": {
+      "file": "/products/real/top-tea-lemon.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790778178_images-10.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "good-time-12g": {
+      "file": "/products/real/good-time-12g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790453756_spasho1731_b786d0ae-d6b2-4ded-80d6-83824e3b4c48.webp",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "good-time-320g": {
+      "file": "/products/real/good-time-320g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790771333_images-2.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "garri-mix-100g": {
+      "file": "/products/real/garri-mix-100g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790771609_images-3.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "garri-mix-50g": {
+      "file": "/products/real/garri-mix-50g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790774217_good time garii.webp",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sarah-creamer": {
+      "file": "/products/real/sarah-creamer.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790768628_35.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "benilo-choco": {
+      "file": "/products/real/benilo-choco.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790681100_26.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sonia-sup-1-1kg": {
+      "file": "/products/real/sonia-sup-1-1kg.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790455288_spxvl2391_779d0d55-4584-4445-9490-953d9ff8afc8.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "cowbell-12g": {
+      "file": "/products/real/cowbell-12g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790455747_images COWBELL.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "cowbell-320g": {
+      "file": "/products/real/cowbell-320g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790685760_32.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "cowbell-750g": {
+      "file": "/products/real/cowbell-750g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790770842_images-1.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "choco-22g": {
+      "file": "/products/real/choco-22g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790456038_images COWBELL CHO.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "miksi-12g": {
+      "file": "/products/real/miksi-12g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790773789_miksi 12g hanging .jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "miksi-750g": {
+      "file": "/products/real/miksi-750g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790775566_images-5.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "miksi-320g": {
+      "file": "/products/real/miksi-320g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790491572_miksi 750.jpeg",
+      "exact_size_match": false,
+      "pack_note": "POS image shows 330g; listing is 320g",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "loya-14g": {
+      "file": "/products/real/loya-14g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790491697_Loya-Instant-Full-Cream-Milk-Powder-Sachets-14g.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "loya-320g": {
+      "file": "/products/real/loya-320g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790491844_loya milk 2.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "loya-750g": {
+      "file": "/products/real/loya-750g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790775178_images-4.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "onga-cube-beef-4g": {
+      "file": "/products/real/onga-cube-beef-4g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790776685_images-7.jpeg",
+      "exact_size_match": false,
+      "pack_note": "POS image shows 8g; listing is 4g",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "kremela-12g": {
+      "file": "/products/real/kremela-12g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790682717_28.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "cowbell-coffee-25g": {
+      "file": "/products/real/cowbell-coffee-25g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790683841_29.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "choco-400g": {
+      "file": "/products/real/choco-400g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790684594_30.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "onga-cube-chicken-4g": {
+      "file": "/products/real/onga-cube-chicken-4g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790777071_images-8.jpeg",
+      "exact_size_match": false,
+      "pack_note": "POS image is a pack; listing is a 4g cube",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "onga-cube-beef-x100": {
+      "file": "/products/real/onga-cube-beef-x100.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790776755_images-6.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sonia-chilli-pepper": {
+      "file": "/products/real/sonia-chilli-pepper.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790691594_IMG_6609.jpeg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sonia-sup-210g": {
+      "file": "/products/real/sonia-sup-210g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790777262_spxvl2391_779d0d55-4584-4445-9490-953d9ff8afc8.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sonia-tin-400g": {
+      "file": "/products/real/sonia-tin-400g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790776997_203897_1729358483 (1).webp",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sonia-sup-400g": {
+      "file": "/products/real/sonia-sup-400g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790777072_spxvl2391_779d0d55-4584-4445-9490-953d9ff8afc8.jpg",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "sonia-mix-55g": {
+      "file": "/products/real/sonia-mix-55g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1790778033_138750_1703020956.webp",
+      "exact_size_match": true,
+      "pack_note": "Company POS product image.",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "cowbell-strawberry-15g": {
+      "file": "/products/real/cowbell-strawberry-15g.webp",
+      "source_page": "Company POS media library (pos.jjebubeenterprise.com.ng)",
+      "direct_image_url": "1793634119_cowbell straw.webp",
+      "exact_size_match": false,
+      "pack_note": "POS image shows 12g; listing is 15g",
+      "license_note": "Company-owned product image from the JJ Ebube POS system."
+    },
+    "oluji-pure-cocoa-250g-tin": {
+      "file": "/products/real/oluji-pure-cocoa-250g-tin.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Oluji Pure Cocoa 250g tin",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "johnvent-3-in-1-choco": {
+      "file": "/products/real/johnvent-3-in-1-choco.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Johnvents 3-in-1 chocolate tin",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "dano-12g-coolcow": {
+      "file": "/products/real/dano-12g-coolcow.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Dano Cool Cow 12g sachet",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "dano-choco": {
+      "file": "/products/real/dano-choco.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Dano chocolate flavoured milk powder (40g x 20 pack image); listing has no size",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "dano-evap-x24": {
+      "file": "/products/real/dano-evap-x24.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Dano evaporated milk tins; listing is a 24-pack",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "dano-350g-fullcream": {
+      "file": "/products/real/dano-350g-fullcream.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Dano full cream 350g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "dano-slim-400g": {
+      "file": "/products/real/dano-slim-400g.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Dano Slim 400g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "dano-slim-900g": {
+      "file": "/products/real/dano-slim-900g.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Dano Slim 900g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "loya-380g-tin": {
+      "file": "/products/real/loya-380g-tin.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Loya milk powder tin 380g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "kremela-30g": {
+      "file": "/products/real/kremela-30g.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Kremela creamer pack (closest available 30g image)",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "kremela-500g": {
+      "file": "/products/real/kremela-500g.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Kremela creamer 500g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "sonia-tin-210g": {
+      "file": "/products/real/sonia-tin-210g.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": true,
+      "pack_note": "Sonia tomato paste 210g tin",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "sonia-tin-2-8kg": {
+      "file": "/products/real/sonia-tin-2-8kg.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Sonia tomato paste tin; exact 2.8kg packshot unavailable",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "top-cafe": {
+      "file": "/products/real/top-cafe.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Top Cafe 3-in-1 coffee mix carton",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "popular-evap-x24": {
+      "file": "/products/real/popular-evap-x24.webp",
+      "source_page": "Retail/brand image search",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Popular evaporated milk tin; listing is a 24-pack",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "tinki-sugar": {
+      "file": "/products/real/tinki-sugar.webp",
+      "source_page": "https://justriteonline.com/wp-content/uploads/2026/05/Tinki-Sugar-Cubes.png",
+      "direct_image_url": "https://justriteonline.com/wp-content/uploads/2026/05/Tinki-Sugar-Cubes.png",
+      "exact_size_match": true,
+      "pack_note": "Tinki sugar cubes",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "champion-milk": {
+      "file": "/products/real/champion-milk.webp",
+      "source_page": "https://wigmorewholesale.com/image/cache/wkseller/12806/Screenshot 2025-04-02 132437-637x430.png",
+      "direct_image_url": "https://wigmorewholesale.com/image/cache/wkseller/12806/Screenshot 2025-04-02 132437-637x430.png",
+      "exact_size_match": false,
+      "pack_note": "Champion milk powder 12g sachet carton",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "laziz-choco": {
+      "file": "/products/real/laziz-choco.webp",
+      "source_page": "https://www.supermart.ng/cdn/shop/files/spxvl1485_be3842ec-055c-4d68-b127-0e6ee3ca2e32.jpg",
+      "direct_image_url": "https://www.supermart.ng/cdn/shop/files/spxvl1485_be3842ec-055c-4d68-b127-0e6ee3ca2e32.jpg",
+      "exact_size_match": true,
+      "pack_note": "Laziz chocolate drink 20g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "hot-choco": {
+      "file": "/products/real/hot-choco.webp",
+      "source_page": "https://nazarjanssupermarket.com/cdn/shop/files/CadburyHotChocolatePowder500g.png",
+      "direct_image_url": "https://nazarjanssupermarket.com/cdn/shop/files/CadburyHotChocolatePowder500g.png",
+      "exact_size_match": false,
+      "pack_note": "Cadbury hot chocolate powder pack; listing has no size",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "tom-tom": {
+      "file": "/products/real/tom-tom.webp",
+      "source_page": "https://www.brandessencenigeria.com/wp-content/uploads/2012/09/Tom-Tom-1.jpg",
+      "direct_image_url": "https://www.brandessencenigeria.com/wp-content/uploads/2012/09/Tom-Tom-1.jpg",
+      "exact_size_match": false,
+      "pack_note": "Cadbury Tom Tom menthol candy",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "supreme-noodles-70g": {
+      "file": "/products/real/supreme-noodles-70g.webp",
+      "source_page": "https://www.chopboxonline.com/wp-content/uploads/2021/09/Supreme-Noodles-70g.png",
+      "direct_image_url": "https://www.chopboxonline.com/wp-content/uploads/2021/09/Supreme-Noodles-70g.png",
+      "exact_size_match": true,
+      "pack_note": "Supreme noodles 70g",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "glucose-big": {
+      "file": "/products/real/glucose-big.webp",
+      "source_page": "https://d3ckuu7lxvlwp2.cloudfront.net/products/01K9CZ6RXBMPEXC7PD0KNS5GSE.jpeg",
+      "direct_image_url": "https://d3ckuu7lxvlwp2.cloudfront.net/products/01K9CZ6RXBMPEXC7PD0KNS5GSE.jpeg",
+      "exact_size_match": false,
+      "pack_note": "Evans Glucose D 175g; listing is a large pack",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "luna-evap-x24": {
+      "file": "/products/real/luna-evap-x24.webp",
+      "source_page": "https://www.supermart.ng/cdn/shop/files/spdpmp1704_luna-full-cream-evaporated-milk-tin-410g.jpg",
+      "direct_image_url": "https://www.supermart.ng/cdn/shop/files/spdpmp1704_luna-full-cream-evaporated-milk-tin-410g.jpg",
+      "exact_size_match": false,
+      "pack_note": "Luna evaporated milk tin; listing is a 24-pack",
+      "license_note": "Retailer/manufacturer product image used for product identification; verify usage rights."
+    },
+    "oluji-pure-cocoa-pkt-250g": {
+      "file": "/products/real/oluji-pure-cocoa-pkt-250g.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "dogan-sugar": {
+      "file": "/products/real/dogan-sugar.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "lipton-box": {
+      "file": "/products/real/lipton-box.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "lipton-hanging": {
+      "file": "/products/real/lipton-hanging.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "kerrygold-750g": {
+      "file": "/products/real/kerrygold-750g.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "kerrygold-320g": {
+      "file": "/products/real/kerrygold-320g.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "dano-320g-coolcow": {
+      "file": "/products/real/dano-320g-coolcow.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "dano-750g-coolcow": {
+      "file": "/products/real/dano-750g-coolcow.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "dano-1kg-fullcream": {
+      "file": "/products/real/dano-1kg-fullcream.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "dano-800g-fullcream": {
+      "file": "/products/real/dano-800g-fullcream.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "cowbell-380g-tin": {
+      "file": "/products/real/cowbell-380g-tin.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    },
+    "cremora": {
+      "file": "/products/real/cremora.webp",
+      "source_page": "Company POS media library / prior validated catalogue image",
+      "direct_image_url": "",
+      "exact_size_match": false,
+      "pack_note": "Company image; verify exact pack size in admin.",
+      "license_note": "Company-owned/retail listing image; verify usage rights."
+    }
+  },
+  "missing": [
+    "myco-tea",
+    "miksi-choco-17g",
+    "onga-cube-beef-x2500",
+    "glucose-pkt",
+    "glucose-small",
+    "ogoody-choco",
+    "ogoody-creamer"
+  ],
+  "updated": "2026-11-20"
+}
