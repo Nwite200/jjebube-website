@@ -58,7 +58,9 @@ export default async function CategoryPage({ params }: Params) {
           categories={categories
             .filter((c) => !c.href)
             .map((c) => ({ slug: c.slug, name: c.name }))}
-          brands={brands.map((b) => ({ slug: b.slug, name: b.name }))}
+          brands={brands
+            .filter((b) => list.some((p) => p.brandSlug === b.slug))
+            .map((b) => ({ slug: b.slug, name: b.name }))}
           lockedCategory={slug}
         />
       </Suspense>

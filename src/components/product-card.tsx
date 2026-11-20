@@ -25,7 +25,7 @@ export function ProductCard({
 
   const priceOnRequest = product.price === null;
   const stock = priceOnRequest
-    ? { label: "Available on request", tone: "request" as const }
+    ? { label: "On request", tone: "request" as const }
     : stockLabel(product.stock);
   const isOut = product.stock <= 0;
   const canBuy = product.price !== null && !isOut;
