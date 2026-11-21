@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Building2 } from "lucide-react";
 import { ShopHeader } from "@/components/shop-header";
+import { BrandLogo } from "@/components/brand/brand-logo";
 import { getBrands, getProducts } from "@/lib/db";
 import { cn } from "@/lib/utils";
 
@@ -46,17 +47,15 @@ export default async function BrandsPage() {
             <Link
               key={brand.slug}
               href={`/brands/${brand.slug}`}
-              className="group flex min-h-[170px] flex-col justify-between border-b border-r border-navy/10 p-6 transition-colors duration-500 hover:bg-navy"
+              className="group flex min-h-[170px] flex-col justify-between border-b border-r border-navy/10 p-6 transition-colors duration-500 hover:bg-ivory"
             >
-              <span className="flex size-10 items-center justify-center rounded-full border border-gold/35 font-display text-sm text-gold-deep transition group-hover:border-gold/60 group-hover:text-gold-soft">
-                {brand.name.slice(0, 1)}
-              </span>
+              <BrandLogo slug={brand.slug} name={brand.name} />
               <div>
-                <h3 className="font-display text-[1.35rem] leading-tight text-navy transition group-hover:text-ivory">
+                <h3 className="font-display text-[1.35rem] leading-tight text-navy transition group-hover:text-gold-deep">
                   {brand.name}
                 </h3>
                 <div className="mt-1.5 flex items-center justify-between">
-                  <p className="text-[0.56rem] font-bold uppercase tracking-[0.12em] text-navy/35 transition group-hover:text-ivory/45">
+                  <p className="text-[0.56rem] font-bold uppercase tracking-[0.12em] text-navy/35 transition group-hover:text-navy/50">
                     {counts[brand.slug]} product{counts[brand.slug] === 1 ? "" : "s"}
                   </p>
                   <ArrowUpRight className="size-3.5 text-navy/25 transition group-hover:text-gold" />

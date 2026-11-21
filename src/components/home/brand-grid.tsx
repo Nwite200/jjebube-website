@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { Brand } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import { BrandLogo } from "@/components/brand/brand-logo";
 
 export function BrandGrid({
   brands,
@@ -37,21 +37,15 @@ export function BrandGrid({
               <Link
                 key={brand.slug}
                 href={`/brands/${brand.slug}`}
-                className="group relative flex min-h-[132px] flex-col justify-between border-b border-r border-navy/10 p-5 transition-colors duration-500 hover:bg-navy md:min-h-[150px] md:p-6"
+                className="group relative flex min-h-[132px] flex-col justify-between border-b border-r border-navy/10 p-5 transition-colors duration-500 hover:bg-ivory md:min-h-[150px] md:p-6"
               >
-                <span
-                  className={cn(
-                    "flex size-8 items-center justify-center rounded-full border border-gold/35 font-display text-[0.68rem] font-semibold text-gold-deep transition-all duration-500 group-hover:border-gold/60 group-hover:text-gold-soft",
-                  )}
-                >
-                  {brand.name.slice(0, 1)}
-                </span>
+                <BrandLogo slug={brand.slug} name={brand.name} />
                 <span>
-                  <span className="block font-display text-[1.06rem] leading-tight text-navy transition-colors duration-500 group-hover:text-ivory">
+                  <span className="block font-display text-[1.06rem] leading-tight text-navy transition-colors duration-500 group-hover:text-gold-deep">
                     {brand.name}
                   </span>
                   <span className="mt-1 flex items-center justify-between">
-                    <span className="text-[0.52rem] font-semibold uppercase tracking-[0.14em] text-navy/35 transition-colors group-hover:text-ivory/45">
+                    <span className="text-[0.52rem] font-semibold uppercase tracking-[0.14em] text-navy/35 transition-colors group-hover:text-navy/50">
                       {count > 0 ? `${count} product${count === 1 ? "" : "s"}` : brand.note ?? "Brand"}
                     </span>
                     <ArrowUpRight className="size-3 text-navy/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:text-gold" />
